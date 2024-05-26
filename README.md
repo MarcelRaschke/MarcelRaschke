@@ -1,3 +1,2715 @@
+@trimstray/the-book-of-secret-knowledge
+
+
+#Das Buch des geheimen Wissens.
+
+"Wissen ist mächtig, seien Sie vorsichtig, wie Sie es verwenden!"
+
+📔 Was ist es?
+Dieses Repositorium ist eine Sammlung verschiedener Materialien und Werkzeuge, die ich täglich bei meiner Arbeit verwende. Es enthält viele nützliche Informationen, die in einem Stück gesammelt wurden. Es ist für mich eine unschätzbare Wissensquelle, auf die ich oft zurückblicke.
+
+🚻 Für wen?
+Wirklich für alle. Hier findet jeder seinen Lieblingsgeschmack. Aber um ganz ehrlich zu sein, richtet es sich an System- und Netzwerkadministratoren, DevOps, Pentester und Sicherheitsforscher.
+
+i️ beitragend
+Wenn du etwas findest, das keinen Sinn ergibt, oder etwas nicht richtig erscheint, stelle bitte einen Pull-Request und füge bitte gültige und gut begründete Erklärungen zu deinen Änderungen oder Kommentaren hinzu.
+
+Ein paar einfache Regeln für dieses Projekt:
+
+einladend und klar
+nicht ermüdend
+nützlich
+Die folgenden Regeln könnten besser sein:
+
+einfach beizutragen (Markdown + HTML ...)
+leicht zu finden (einfaches Inhaltsverzeichnis, vielleicht lohnt es sich, sie zu erweitern?)
+Die mit * markierte URL ist vorübergehend nicht verfügbar. Bitte löschen Sie es nicht, ohne zu bestätigen, dass es dauerhaft abgelaufen ist.
+
+Bevor Sie einen Pull Request hinzufügen, lesen Sie bitte die Richtlinien zum Beitragen. Sie sollten sich auch daran erinnern:
+
++ This repository is not meant to contain everything but only good quality stuff.
+Alle Vorschläge/PR sind willkommen!
+
+💢 Inhaltsverzeichnis
+Nur Hauptkapitel:
+
+CLI-Werkzeuge
+GUI-Werkzeuge
+Web-Werkzeuge
+Systeme/Dienstleistungen
+Netzwerke
+Container/Orchestrierung
+Handbücher/Howtos/Tutorials
+Inspirierende Listen
+Blogs/Podcasts/Videos
+Hacking/Penetrationstests
+Ihr tägliches Wissen und Neuigkeiten
+Andere Spickzettel
+Shell Einzeiler
+Muschel-Tricks
+Shell-Funktionen
+
+🔱 Das Buch des geheimen Wissens (Kapitel)
+
+
+CLI-Werkzeuge [Inhaltsverzeichnis]
+
+▪️ Muscheln
+   GNU Bash - ist eine sh-kompatible Shell, die nützliche Funktionen aus der Korn-Shell und der C-Shell enthält.
+Zsh - ist eine Shell, die für den interaktiven Gebrauch entwickelt wurde, obwohl sie auch eine leistungsstarke Skriptsprache ist.
+tclsh - ist eine sehr leistungsfähige plattformübergreifende Schale, die für eine Vielzahl von Anwendungen geeignet ist.
+bash-it - ist ein Framework zum Verwenden, Entwickeln und Verwalten von Shell-Skripten und benutzerdefinierten Befehlen.
+Oh My ZSH! - ist das beste Framework für die Verwaltung Ihrer Zsh-Konfiguration.
+Oh My Fish - das Fishshell-Framework.
+Starship - die in Rust geschriebene Cross-Shell-Eingabeaufforderung.
+powerlevel10k - ist eine schnelle Neuimplementierung des Powerlevel9k ZSH-Themes.
+
+▪️ Shell-Plugins
+   z - Verfolgt den Ordner, den Sie am häufigsten verwenden, und ermöglicht es Ihnen, zu springen, ohne den gesamten Pfad eingeben zu müssen.
+FZF - ist ein universeller Befehlszeilen-Fuzzy-Finder.
+zsh-autosuggestions - Fischähnliche Autosuggestionen für Zsh.
+zsh-syntax-highlighting - Fischshell-ähnliche Syntaxhervorhebung für Zsh.
+Awesome ZSH Plugins - Eine Liste von Frameworks, Plugins, Themes und Tutorials für ZSH.
+
+▪️ Manager
+   Midnight Commander - ist ein visueller Dateimanager, lizenziert unter der GNU General Public License.
+ranger - ist ein VIM-inspirierter Dateimanager für die Konsole.
+nnn - ist ein winziger, blitzschneller, funktionsreicher Dateimanager.
+screen - ist ein Vollbild-Fenstermanager, der ein physisches Terminal multiplext.
+tmux - ist ein Terminal-Multiplexer, mit dem Sie einfach zwischen mehreren Programmen in einem Terminal wechseln können.
+tmux-cssh - ist ein Tool zum Festlegen komfortabler und einfach zu bedienender Funktionen tmux-sessions.
+
+▪️ Texteditoren
+   vi - ist einer der gebräuchlichsten Texteditoren unter Unix.
+vim - ist ein hochgradig konfigurierbarer Texteditor.
+emacs - ist ein erweiterbarer, anpassbarer, freier/freier Texteditor und mehr.
+micro - ist ein moderner und intuitiver terminalbasierter Texteditor.
+Neovim - ist ein kostenloser, leistungsstarker, erweiterbarer und nutzbarer Open-Source-Code-Editor.
+spacemacs - eine von der Community betriebene Emacs-Distribution.
+spacevim - eine Community-gesteuerte VIM-Distribution.
+
+▪️ Dateien und Verzeichnisse
+   FD - ist eine einfache, schnelle und benutzerfreundliche Alternative.
+NCDU - ist ein einfach zu bedienender, schneller Analysator für die Festplattennutzung.
+
+▪️ Netz
+   PuTTY - ist ein SSH- und Telnet-Client, der ursprünglich von Simon Tatham entwickelt wurde.
+Mosh - ist ein SSH-Wrapper, der entwickelt wurde, um eine SSH-Sitzung über eine flüchtige Verbindung am Leben zu erhalten.
+Eternal Terminal - ermöglicht Mouse-Scrolling und tmux-Befehle innerhalb der SSH-Sitzung.
+nmap - ist ein kostenloses Open-Source-Dienstprogramm (Lizenz) für Netzwerkerkennung und Sicherheitsprüfung.
+zmap - ist ein schneller Einzelpaket-Netzwerkscanner, der für internetweite Netzwerkuntersuchungen entwickelt wurde.
+Rust Scan - um alle offenen Ports schneller als Nmap zu finden.
+masscan - ist der schnellste Internet-Port-Scanner, spuckt SYN-Pakete asynchron aus.
+pbscan - ist ein schnellerer und effizienterer zustandsloser SYN-Scanner und Banner-Grabber.
+hping - ist ein befehlszeilenorientierter TCP/IP-Paketassembler/-analysator.
+MTR - ist ein Tool, das die Funktionalität der Programme "Traceroute" und "Ping" in einem einzigen Tool vereint.
+mylg - Dienstprogramm, das die Funktionen der verschiedenen Netzwerksonden in einem Diagnosetool vereint.
+netcat - Dienstprogramm, das Daten über Netzwerkverbindungen liest und schreibt, wobei das TCP/IP-Protokoll verwendet wird.
+socat - Dienstprogramm, das Daten zwischen zwei Objekten überträgt.
+tcpdump - ist ein leistungsstarker Befehlszeilen-Paketanalysator.
+tshark - ist ein Tool, mit dem wir den Netzwerkverkehr dumpen und analysieren können (Wireshark CLI).
+Termshark - ist eine einfache Terminal-Benutzeroberfläche für tshark.
+ngrep - ist wie GNU grep auf die Netzwerkschicht angewendet.
+netsniff-ng - ist ein Schweizer Taschenmesser für Ihre tägliche Linux-Netzwerkinstallation, wenn Sie so wollen.
+sockdump - Dump des Unix-Domain-Socket-Datenverkehrs.
+stenographer - ist eine Paketerfassungslösung, die darauf abzielt, alle Pakete schnell auf die Festplatte zu spoolen.
+tcpterm - Pakete in TUI visualisieren.
+BMON - ist ein Überwachungs- und Debugging-Tool, um netzwerkbezogene Statistiken zu erfassen und visuell aufzubereiten.
+iptraf-ng - ist ein konsolenbasiertes Netzwerküberwachungsprogramm für Linux, das Informationen über den IP-Verkehr anzeigt.
+vnstat - ist ein Netzwerkverkehrsmonitor für Linux und BSD.
+iPerf3 - ist ein Werkzeug zur aktiven Messung der maximal erreichbaren Bandbreite in IP-Netzwerken.
+ethr - ist ein Tool zur Messung der Netzwerkleistung für TCP, UDP und HTTP.
+Etherate - ist ein Linux-CLI-basiertes Ethernet- und MPLS-Datenverkehrstesttool.
+echoip - ist ein IP-Adressen-Suchdienst.
+Nemesis - CLI-Tool zur Paketmanipulation; Erstellen und injizieren Sie Pakete mehrerer Protokolle.
+packetfu - eine Paketmanipulationsbibliothek der mittleren Ebene für Ruby.
+Scapy - Bibliothek zur Paketmanipulation; Schmiede, SBeenden, dekodieren und erfassen Sie Pakete einer Vielzahl von Protokollen.
+impacket - ist eine Sammlung von Python-Klassen für die Arbeit mit Netzwerkprotokollen.
+ssh-audit - ist ein Tool für SSH-Server-Auditing.
+aria2 - ist ein leichtgewichtiges Multiprotokoll- und Multi-Source-Befehlszeilen-Download-Dienstprogramm.
+iptables-tracer - Beobachten Sie den Pfad von Paketen durch die iptables-Ketten.
+Inception - ein hochgradig konfigurierbares Tool, mit dem Sie gegen eine beliebige Anzahl von Hosts prüfen können, was Sie möchten.
+mRemoteNG - ein Fork von mRemote, Multi-Tabbed PuTTy auf Steroiden!
+
+▪️ Netzwerk (DNS)
+   dnsdiag - ist ein DNS-Diagnose- und Leistungsmesstool.
+fierce - ist ein DNS-Aufklärungstool zum Auffinden von nicht zusammenhängendem IP-Raum.
+Subfinder - ist ein Tool zur Erkennung von Subdomains, das gültige Subdomains für Websites erkennt.
+sublist3r - ist ein schnelles Tool zur Aufzählung von Subdomains für Penetrationstester.
+amass - ist ein Tool, das Subdomain-Namen durch Scraping von Datenquellen, Crawling von Webarchiven und mehr erhält.
+Namebench - Bietet personalisierte DNS-Server-Empfehlungen basierend auf Ihrem Browserverlauf.
+massdns - ist ein leistungsstarker DNS-Stub-Resolver für Massensuchen und Aufklärung.
+knock - ist ein Tool zum Auflisten von Subdomains auf einer Zieldomain über eine Wortliste.
+dnsperf - Tools zum Testen der DNS-Leistung.
+dnscrypt-proxy 2 - ein flexibler DNS-Proxy mit Unterstützung für verschlüsselte DNS-Protokolle.
+dnsdbq - API-Client, der Zugriff auf passive DNS-Datenbanksysteme bietet.
+GRIMD - Schneller DNS-Proxy, der entwickelt wurde, um Internetwerbung und Malware-Server zu verdunkeln.
+DNSTWIST - Erkennen Sie Typosquatter, Phishing-Angriffe, Betrug und Markenidentität.
+
+▪️ Netzwerk (HTTP)
+   curl - ist ein Befehlszeilentool und eine Bibliothek zum Übertragen von Daten mit URLs.
+kurly - ist eine Alternative zum weit verbreiteten Curl-Programm, das in Golang geschrieben ist.
+HTTPie - ist ein benutzerfreundlicher HTTP-Client.
+wuzz - ist ein interaktives CLI-Tool für die HTTP-Inspektion.
+h2spec - ist ein Konformitätstestwerkzeug für die HTTP/2-Implementierung.
+h2t - ist ein einfaches Tool, das Systemadministratoren hilft, ihre Websites zu härten.
+htrace.sh - ist ein einfaches Schweizer Taschenmesser für die http/https-Fehlerbehebung und Profilerstellung.
+httpstat - ist ein Tool, das Lockenstatistiken auf eine Weise visualisiert, die schön und klar ist.
+httplab - ist ein interaktiver Webserver.
+Lynx - ist ein Textbrowser für das World Wide Web.
+Browsh - ist ein vollständig interaktiver, moderner textbasierter Echtzeit-Browser.
+HeadlessBrowsers - eine Liste von (fast) allen existierenden Headless-Webbrowsern.
+ab - ist ein Single-Thread-Befehlszeilentool zum Messen der Leistung von HTTP-Webservern.
+Siege: ist ein HTTP-Auslastungstest- und Benchmarking-Dienstprogramm.
+wrk - ist ein modernes HTTP-Benchmarking-Tool, das in der Lage ist, eine erhebliche Last zu erzeugen.
+wrk2 - ist eine Aufzeichnungsvariante von wrk mit konstantem Durchsatz und korrekter Latenz.
+vegeta - ist eine Aufzeichnungsvariante von WRK mit konstantem Durchsatz und korrekter Latenz.
+bombardier - ist ein schnelles, plattformübergreifendes HTTP-Benchmarking-Tool, das in Go geschrieben wurde.
+Gobench - HTTP/HTTPS-Auslastungstest- und Benchmarking-Tool.
+hey - HTTP-Lastgenerator, ApacheBench (ab)-Ersatz, früher bekannt als Rakyll/Boom.
+Boom - ist ein Skript, mit dem Sie Ihre Web-App-Bereitstellung schnell testen können.
+SlowHTTPTest - ist ein Tool, das einige Denial-of-Service-Angriffe auf Anwendungsebene simuliert, indem es HTTP verlängert.
+gobuster - ist ein kostenloses Open-Source-Tool zum Buschen von Verzeichnissen/Dateien und DNS, das in Go geschrieben wurde.
+ssllabs-scan - Befehlszeilen-Referenzimplementierungsclient für SSL Labs-APIs.
+http-observatory - Mozilla HTTP Observatory CLI-Version.
+Hurl - ist ein Befehlszeilentool zum Ausführen und Testen von HTTP-Anfragen mit Klartext.
+
+▪️ SSL (Englisch)
+   openssl - ist ein robustes, kommerzielles und voll funktionsfähiges Toolkit für die TLS- und SSL-Protokolle.
+gnutls-cli - Client-Programm zum Einrichten einer TLS-Verbindung zu einem anderen Computer.
+sslyze - schnelle und leistungsstarke SSL/TLS-Server-Scan-Bibliothek.
+sslscan - testet SSL/TLS-fähige Dienste, um unterstützte Verschlüsselungssammlungen zu ermitteln.
+testssl.sh - Testen der TLS/SSL-Verschlüsselung überall auf jedem Port.
+cipherscan - eine sehr einfache Möglichkeit, um herauszufinden, welche SSL-Ciphersuites von einem Ziel unterstützt werden.
+spiped - ist ein Dienstprogramm zum Erstellen symmetrisch verschlüsselter und authentifizierter Pipes zwischen Socket-Adressen.
+Certbot - ist das Tool der EFF, um Zertifikate von Let's Encrypt zu erhalten und (optional) HTTPS auf Ihrem Server automatisch zu aktivieren.
+mkcert - einfaches Zero-Config-Tool zum Erstellen lokal vertrauenswürdiger Entwicklungszertifikate mit beliebigen Namen.
+certstrap - Tools zum Bootstrappen von Zertifizierungsstellen, Zertifikatsanforderungen und signierten Zertifikaten.
+Sublert - ist ein Sicherheits- und Aufklärungstool zur automatischen Überwachung neuer Subdomains.
+mkchain - Open-Source-Tool, mit dem Sie eine gültige SSL-Zertifikatskette erstellen können.
+ssl-cert-check - Überprüfung des Ablaufs der SSL-Zertifizierung.
+
+▪️ Sicherheit
+   SELinux - bietet ein flexibles MAC-System (Mandatory Access Control), das in den Linux-Kernel integriert ist.
+AppArmor - schützt das Betriebssystem und die Anwendungen proaktiv vor externen oder internen Bedrohungen.
+grapheneX - Automatisiertes Systemhärtungs-Framework.
+DevSec Hardening Framework - Sicherheit + DevOps: Automatische Serverhärtung.
+
+▪️ Auditing-Tools
+   OSSEC - Aktive Überwachung aller Aspekte der Systemaktivität mit Dateiintegritätsüberwachung.
+auditd - bietet eine Möglichkeit, sicherheitsrelevante Informationen auf Ihrem System zu verfolgen.
+Tiger - ist ein Sicherheitstool, das sowohl als Sicherheitsaudit- als auch als Intrusion-Detection-System verwendet werden kann.
+Lynis - kampferprobtes Sicherheitstool für Systeme mit Linux, macOS oder Unix-basierten Betriebssystemen.
+LinEnum - skriptgesteuerte lokale Linux-Enumerations- und Privilegien-Eskalationsprüfungen.
+Rkhunter - Scanner-Tool für Linux-Systeme, das Hintertüren, Rootkits und lokale Exploits auf Ihren Systemen scannt.
+PE-Sieve - ist ein leichtgewichtiges Tool, das hilft, Malware zu erkennen, die auf dem System ausgeführt wird.
+PEASS - Tools zur Ausweitung von Berechtigungen für Windows und Linux/Unix und MacOS.
+
+▪️ Systemdiagnose/Debugger
+   strace - Diagnose-, Debugging- und Instruktions-Userspace-Dienstprogramm für Linux.
+DTrace - ist ein Tool zur Leistungsanalyse und Fehlerbehebung.
+ltrace - ist ein Bibliotheksaufruf-Tracer, der verwendet wird, um Aufrufe von Programmen an Bibliotheksfunktionen zu verfolgen.
+Ptrace-Burrito - ist ein freundlicher Wrapper um Ptrace.
+perf-tools - Tools zur Leistungsanalyse, die auf Linux perf_events (auch bekannt als perf) und ftrace basieren.
+bpftrace - High-Level-Tracing-Sprache für Linux eBPF.
+sysdig - Systemerkundungs- und Fehlerbehebungstool mit erstklassiger Unterstützung für Container.
+Valgrind - ist ein Instrumentierungs-Framework zum Erstellen dynamischer Analysewerkzeuge.
+gperftools - Leistungsstarke Multithread-Implementierung von malloc() sowie einige Tools zur Leistungsanalyse.
+glances - plattformübergreifendes Systemüberwachungstool, das in Python geschrieben wurde.
+htop - Interaktiver Textmodus-Prozessbetrachter für Unix-Systeme. Es zielt darauf ab, ein besseres "Top" zu sein.
+bashtop - Linux-Ressourcenmonitor, der in reinem Bash geschrieben ist.
+NMON - eine einzige ausführbare Datei für die Leistungsüberwachung und Datenanalyse.
+atop - ASCII-Leistungsmonitor. Enthält Statistiken für CPU, Arbeitsspeicher, Festplatte, Auslagerung, Netzwerk und Prozesse.
+lsof - Zeigt in seiner Ausgabe Informationen zu Dateien an, die von Prozessen geöffnet werden.
+FlameGraph - Stapel-Trace-Visualisierung.
+lsofgraph - Konvertiert die Unix-lsof-Ausgabe in ein Diagramm, das die FIFO- und UNIX-Interprozesskommunikation zeigt.
+RR - ist ein leichtgewichtiges Tool zum Aufzeichnen, Wiedergeben und Debuggen der Ausführung von Anwendungen.
+Performance Co-Pilot - ein Toolkit zur Analyse der Systemleistung.
+hexyl - ein Befehlszeilen-Hex-Viewer.
+Austin - Python-Frame-Stack-Sampler für CPython.
+
+▪️ Log-Analysatoren
+   angle-grinder - Schneiden und würfeln Sie Protokolldateien auf der Befehlszeile.
+LNAV - Protokolldatei-Navigator mit Suche und automatischer Aktualisierung.
+GoAccess - Echtzeit-Webprotokollanalysator und interaktiver Viewer, der in einem Terminal ausgeführt wird.
+ngxtop - Echtzeitmetriken für den NGINX-Server.
+
+▪️ Datenbanken
+   usql - universelle Befehlszeilenschnittstelle für SQL-Datenbanken.
+pgcli - Postgres-CLI mit Autovervollständigung und Syntaxhervorhebung.
+mycli - Terminal-Client für MySQL mit Autovervollständigung und Syntaxhervorhebung.
+litecli - SQLite-CLI mit Autovervollständigung und Syntaxhervorhebung.
+mssql-cli - SQL Server-CLI mit Autovervollständigung und Syntaxhervorhebung.
+OSQuery - ist ein SQL-gestütztes Framework für die Instrumentierung, Überwachung und Analyse von Betriebssystemen.
+pgsync - Synchronisieren Sie Daten von einer Postgres-Datenbank mit einer anderen.
+Iredis - ein Terminal-Client für Redis mit Autovervollständigung und Syntaxhervorhebung.
+SchemaCrawler - generiert ein E-R-Diagramm Ihrer Datenbank.
+
+▪️ TOR
+   Nipe - Skript, um das Tor-Netzwerk zu Ihrem Standard-Gateway zu machen.
+multitor - ein Tool, mit dem Sie mehrere TOR-Instanzen mit einem Lastenausgleich erstellen können.
+
+▪️ Messenger/IRC-Clients
+   Irssi - ist ein kostenloser Open-Source-Terminal-basierter IRC-Client.
+WeeChat - ist ein extrem erweiterbarer und leichtgewichtiger IRC-Client.
+
+▪️ Produktivität
+   TaskWarrior - Aufgabenverwaltungssystem, Aufgabenliste
+
+▪️ Andere
+   sysadmin-util - Werkzeuge für Linux/Unix-Systemadministratoren.
+incron - ist eine Inode-basierte Dateisystem-Benachrichtigungstechnologie.
+lsyncd - synchronisiert lokale Verzeichnisse mit entfernten Zielen (Live Syncing Daemon).
+GRV - ist eine terminalbasierte Schnittstelle zum Anzeigen von Git-Repositories.
+Tig - Textmodus-Schnittstelle für Git.
+TLDR - Vereinfachte und Community-gesteuerte Handbuchseiten.
+Archivierer - Erstellen und extrahieren Sie einfach .zip, .tar, .tar.gz, .tar.bz2, .tar.xz, .tar.lz4, .tar.sz und .rar.
+commander.js - minimaler CLI-Ersteller in JavaScript.
+gron - JSON greppbar machen!
+bed - binärer Editor in Go geschrieben.
+GUI-Werkzeuge [Inhaltsverzeichnis]
+
+▪️ Terminal-Emulatoren
+   Guake - ist ein Dropdown-Terminal für die GNOME-Desktop-Umgebung.
+Terminator - basiert auf GNOME Terminal, nützliche Funktionen für Systemadministratoren und andere Benutzer.
+Kitty - ist ein GPU-basierter Terminal-Emulator, der flüssiges Scrollen und Bilder unterstützt.
+Alacritty - ist ein schneller, plattformübergreifender OpenGL-Terminalemulator.
+
+▪️ Netz
+   Wireshark - ist der weltweit führende und am weitesten verbreitete Netzwerkprotokollanalysator.
+Ettercap - ist ein umfassendes Netzwerküberwachungstool.
+EtherApe - ist eine grafische Netzwerküberwachungslösung.
+Packet Sender - ist ein Netzwerkdienstprogramm für die Paketgenerierung und integrierte UDP/TCP/SSL-Clients und -Server.
+Ostinato - ist ein Paketersteller und Verkehrsgenerator.
+JMeter™ - Open-Source-Software zum Testen des Funktionsverhaltens und zum Messen der Leistung.
+locust - skalierbares Benutzerlasttest-Tool, das in Python geschrieben wurde.
+
+▪️ Browser
+   TOR Browser - Schützen Sie Ihre Privatsphäre und verteidigen Sie sich gegen Netzwerküberwachung und Verkehrsanalyse.
+
+▪️ Passwort-Manager
+   KeePassXC - Speichern Sie Ihre Passwörter sicher und geben Sie sie automatisch in Ihre täglichen Websites und Apps ein.
+Bitwarden - Open-Source-Passwort-Manager mit integrierter Synchronisierung.
+Vaultwarden - inoffizieller Bitwarden-kompatibler Server, der in Rust geschrieben ist.
+
+▪️ Messenger/IRC-Clients
+   HexChat - ist ein IRC-Client, der auf XChat basiert.
+Pidgin - ist ein einfach zu bedienender und kostenloser Chat-Client, der von Millionen verwendet wird.
+
+▪️ Messenger (Ende-zu-Ende-Verschlüsselung)
+   Signal - ist eine verschlüsselte Kommunikations-App.
+Wire - sicheres Messaging, Dateifreigabe, Sprachanrufe und Videokonferenzen.
+TorChat - dezentraler anonymer Instant Messenger auf der Grundlage von Tor Hidden Services.
+Matrix - ein offenes Netzwerk für sichere, dezentrale Echtzeitkommunikation.
+
+▪️ Texteditoren
+   Sublime Text - ist ein leichter, plattformübergreifender Code-Editor, der für seine Geschwindigkeit und Benutzerfreundlichkeit bekannt ist.
+Visual Studio Code - ein von Microsoft entwickelter Open-Source- und kostenloser Quellcode-Editor.
+Atom - ein hackbarer Texteditor für das 21. Jahrhundert.
+Web-Werkzeuge [Inhaltsverzeichnis]
+
+▪️ Browser
+   SSL/TLS-Funktionen Ihres Browsers - Testen Sie die SSL-Implementierung Ihres Browsers.
+Kann ich verwenden - bietet aktuelle Browser-Support-Tabellen zur Unterstützung von Front-End-Webtechnologien.
+Panopticlick 3.0 - Ist Ihr Browser sicher vor Tracking?
+Privacy Analyzer - Sehen Sie, welche Daten von Ihrem Browser verfügbar gemacht werden.
+Webbrowser-Sicherheit - es dreht sich alles um Webbrowser-Fingerabdrücke.
+Wie ist mein SSL? - Helfen Sie einem Webserver-Entwickler zu lernen, wozu TLS-Clients in der Praxis in der Lage sind.
+sslClientInfo - Client-Test (inkl. TLSv1.3-Informationen).
+
+▪️ SSL/Sicherheit
+   SSLLabs Server Test - führt eine gründliche Analyse der Konfiguration eines beliebigen SSL-Webservers durch.
+SSLLabs Server Test (DEV) - führt eine gründliche Analyse der Konfiguration eines beliebigen SSL-Webservers durch.
+ImmuniWeb® SSLScan - testet SSL/TLS (PCI DSS, HIPAA und NIST).
+SSL-Check - Scannen Sie Ihre Website auf unsichere Inhalte.
+SSL-Scanner - Analysieren Sie die Website-Sicherheit.
+CryptCheck - Testen Sie Ihre TLS-Serverkonfiguration (z.B. Chiffren).
+urlscan.io - Dienst zum Scannen und Analysieren von Websites.
+Berichts-URI: Überwachung von Sicherheitsrichtlinien wie CSP und HPKP.
+CSP Evaluator: Ermöglicht Entwicklern und Sicherheitsexperten zu überprüfen, ob eine Inhaltssicherheitsrichtlinie.
+Useless CSP - öffentliche Liste über CSP in einigen großen Playern (könnte sie etwas mehr interessieren).
+Warum kein HTTPS? - Top 100 Websites nach Alexa-Rang leiten unsichere Anfragen nicht automatisch um.
+TLS Cipher Suite Search - Suchmaschine für Cipher Suite.
+cipherli.st - starke Chiffren für Apache, Nginx, Lighttpd und mehr. *
+dhtool - öffentlicher Diffie-Hellman-Parameterdienst/-werkzeug.
+badssl.com - einprägsame Website zum Testen von Clients gegen fehlerhafte SSL-Konfigurationen.
+tlsfun.de - registriert für verschiedene Tests bezüglich des TLS/SSL-Protokolls.
+CAA Record Helper - Generieren Sie eine CAA-Richtlinie.
+Common CA Database - Repository mit Informationen über Zertifizierungsstellen und deren Stamm- und Zwischenzertifikate.
+CERTSTREAM - Aktualisierungsstream für Zertifikatstransparenzprotokolle in Echtzeit.
+crt.sh - erkennt Zertifikate durch kontinuierliche Überwachung aller öffentlich bekannten CTs.
+Hardenize - Stellen Sie die Sicherheitsstandards bereit.
+Kompatibilität der Verschlüsselungssammlung: Testen Sie die Kompatibilität der TLS-Verschlüsselungssammlung.
+URLVOID - Dieser Dienst hilft Ihnen, potenziell bösartige Websites zu erkennen.
+security.txt - ein vorgeschlagener Standard (Generator), der es Websites ermöglicht, Sicherheitsrichtlinien zu definieren.
+ssl-config-generator - hilft Ihnen, die Mozilla Server Side TLS-Konfigurationsrichtlinien zu befolgen.
+TLScan - reines Python, SSL/TLS-Protokoll und Chiffre-Scanner/Enumerator.
+
+▪️ HTTP-Header und Web-Linters
+   Security Headers - Analyse der HTTP-Antwort-Header (mit Bewertungssystem für die Ergebnisse).
+Observatory von Mozilla - eine Reihe von Tools zur Analyse Ihrer Website.
+WebHint - ist ein Linting-Tool, das Ihnen bei der Zugänglichkeit, Geschwindigkeit, Sicherheit und mehr Ihrer Website hilft.
+
+▪️ DNS
+   ViewDNS - eine Quelle für kostenlose DNS-bezogene Tools und Informationen.
+DNSLookup - ist ein erweitertes DNS-Lookup-Tool.
+DNSlytics - Online-DNS-Untersuchungstool.
+DNS Spy - Überwachen, validieren und verifizieren Sie Ihre DNS-Konfigurationen.
+Zonemaster - hilft Ihnen zu kontrollieren, wie Ihr DNS funktioniert.
+Leaf DNS - umfassender DNS-Tester.
+Subdomains online finden - Finden Sie Subdomains für den Penetrationstest zur Sicherheitsbewertung.
+DNSdumpster - DNS-Aufklärung und -Recherche, Suche und Suche nach DNS-Einträgen.
+DNS-Tabelle online - Suchen Sie nach DNS-Einträgen nach Domain, IP, CIDR, ISP.
+intoDNS - DNS- und Mailserver-Integritätsprüfung.
+DNS Bajaj - Überprüfen Sie die Delegierung Ihrer Domain.
+BuddyDNS Delegation LAB - Prüfen, verfolgen und visualisieren Sie die Delegierung Ihrer Domain.
+dnssec-debugger - DS- oder DNSKEY-Datensatz-Validator.
+PTRarchive.com - Diese Website ist für die sichere Aufbewahrung historischer Reverse-DNS-Einträge verantwortlich.
+xip.io - Platzhalter-DNS für alle.
+nip.io - todeinfaches Wildcard-DNS für jede IP-Adresse.
+dnslookup (ceipam) - einer der besten DNS-Propagation-Checker (und nicht nur).
+What's My DNS - Tool zur Überprüfung der DNS-Ausbreitung.
+DNSGrep - schnelles Durchsuchen großer DNS-Datensätze.
+
+▪️ Post
+   smtp-tls-checker - Überprüfen Sie eine E-Mail-Domäne auf SMTP-TLS-Unterstützung.
+MX Toolbox - alle Ihre MX-Eintrags-, DNS-, Blacklist- und SMTP-Diagnosen in einem integrierten Tool.
+Secure Email - Komplette E-Mail-Testtools für E-Mail-Techniker.
+blacklistalert - prüft, ob Ihre Domain auf einer Echtzeit-Spam-Blacklist steht.
+MultiRBL - vollständige IP-Prüfung für sendende Mailserver.
+DKIM SPF & Spam Assassin Validator - überprüft die E-Mail-Authentifizierung und bewertet Nachrichten mit Spam Assassin.
+
+▪️ Encoder/Decoder und Regex-Tests
+   URL-Kodierung/Dekodierung - Werkzeug von oben, um eine Textzeichenfolge entweder zu kodieren oder zu dekodieren.
+Uncoder - der Online-Übersetzer für Suchanfragen auf Protokolldaten.
+Regex101 - Online-Regex-Tester und -Debugger: PHP, PCRE, Python, Golang und JavaScript.
+RegExr - Online-Tool zum Lernen, Erstellen und Testen regulärer Ausdrücke (RegEx / RegExp).
+RegEx Testing - Online-Regex-Testtool.
+RegEx Pal - Online-Regex-Testtool + andere Tools.
+Das Cyber Swiss Army Knife - eine Web-App zur Verschlüsselung, Codierung, Komprimierung und Datenanalyse.
+
+▪️ Netz-Werkzeuge
+   Netcraft - detaillierter Bericht über die Website, der Ihnen hilft, fundierte Entscheidungen über ihre Integrität zu treffen. *
+RIPE NCC Atlas - eine globale, offene, verteilte Internet-Messplattform.
+Robtex - verwendet verschiedene Quellen, um öffentliche Informationen über IP-Nummern, Domainnamen, Hostnamen usw. zu sammeln.
+Security Trails - APIs für Sicherheitsunternehmen, Forscher und Teams.
+Online Curl - Curl-Test, Analyse von HTTP-Antwort-Headern.
+Online-Tools für Entwickler - HTTP-API-Tools, Tester, Encoder, Konverter, Formatierer und andere Tools.
+Ping.eu - Online-Ping, Traceroute, DNS-Lookup, WHOIS und andere.
+Network-Tools - Netzwerk-Tools für Webmaster, IT-Techniker und Geeks.
+BGPview - Suchen Sie nach ASN, IP, Präfix oder Ressourcennamen.
+Ist BGP schon sicher? - Überprüfen Sie die BGP (RPKI)-Sicherheit von ISPs und anderen großen Internet-Playern.
+Riseup - bietet Online-Kommunikationswerkzeuge für Menschen und Gruppen, die sich für einen befreienden sozialen Wandel einsetzen.
+VirusTotal - Analysieren Sie verdächtige Dateien und URLs, um Arten von Malware zu erkennen.
+
+▪️ Privatsphäre
+   privacyguides.org - bietet Wissen und Werkzeuge zum Schutz Ihrer Privatsphäre vor globaler Massenüberwachung.
+DNS-Datenschutz-Testserver - Liste der rekursiven DNS-Datenschutzserver (mit einer Richtlinie für keine Protokollierung).
+
+▪️ Code-Parser/Spielplätze
+   ShellCheck - findet Fehler in Ihren Shell-Skripten.
+Explains Hell - Erhalten Sie interaktive Hilfetexte für Shell-Befehle.
+jsbin - Live-Pastebin für HTML, CSS und JavaScript und mehr.
+CodeSandbox - Online-Code-Editor für die Entwicklung von Webanwendungen.
+PHP Sandbox - Testen Sie Ihren PHP-Code mit diesem Code-Tester.
+Repl.it - eine sofortige IDE zum Lernen, Erstellen, Zusammenarbeiten und Hosten an einem Ort.
+vclFiddle - ist ein Online-Tool zum Experimentieren mit der Varnish Cache VCL.
+Haskell Dockerfile Linter - ein intelligenterer Dockerfile-Linter, mit dem Sie Docker-Images mit Best Practices erstellen können.
+
+▪️ Leistung
+   GTmetrix - Analysieren Sie die Geschwindigkeit Ihrer Website und machen Sie sie schneller.
+Sucuri loadtimetester - testen Sie hier die Leistung einer Ihrer Websites aus der ganzen Welt.
+Pingdom Tools - Analysieren Sie die Geschwindigkeit Ihrer Website auf der ganzen Welt.
+PingMe.io - Führen Sie Website-Latenztests in mehreren geografischen Regionen durch.
+PageSpeed Insights - Analysieren Sie die Geschwindigkeit Ihrer Website und machen Sie sie schneller.
+web.dev – hilft Entwicklern wie Ihnen, die modernen Funktionen des Webs zu erlernen und auf Ihre eigenen Websites und Apps anzuwenden.
+Lighthouse – automatisierte Überwachung, Leistungsmetriken und Best Practices für das Web.
+
+▪️ Massenscanner (Suchmaschinen)
+   Censys - Plattform, die Informationssicherheitsexperten bei der Erkennung, Überwachung und Analyse von Geräten unterstützt.
+Shodan - die weltweit erste Suchmaschine für mit dem Internet verbundene Geräte.
+Shodan 2000 - Dieses Tool sucht nach zufällig generierten Daten von Shodan.
+GreyNoise - Massenscanner wie Shodan und Censys.
+ZoomEye - Suchmaschine für den Cyberspace, mit der der Benutzer bestimmte Netzwerkkomponenten finden kann.
+NetOgraph - Tools zum Überwachen und Verstehen der Tiefenstruktur des Webs.
+FOFA - ist eine Cyberspace-Suchmaschine.
+ONYPHE - ist eine Suchmaschine für gesammelte Open-Source- und Cyber-Bedrohungsdaten.
+IntelligenceX - ist eine Suchmaschine und ein Datenarchiv.
+BinaryEdge - Es scannt den gesamten Internetbereich und erstellt Echtzeit-Bedrohungsinformationsströme und -berichte.
+Spyse - Internet Assets Registry: Netzwerke, Bedrohungen, Webobjekte usw.
+wigle - ist ein übermittlungsbasierter Katalog von drahtlosen Netzwerken. Alle Netzwerke. Von allen gefunden.
+PublicWWW - finden Sie ein beliebiges alphanumerisches Snippet, eine Signatur oder ein Schlüsselwort im HTML-, JS- und CSS-Code der Webseiten.
+IntelTechniques - Dieses Repository enthält Hunderte von Online-Suchdienstprogrammen.
+Hunter - Ermöglicht es Ihnen, E-Mail-Adressen in Sekundenschnelle zu finden und sich mit den Personen zu verbinden, die für Ihr Unternehmen wichtig sind.
+GhostProject? - Suche nach vollständiger E-Mail-Adresse oder Benutzername.
+Datenschutzverletzungen - War meine E-Mail von einer Datenschutzverletzung betroffen?
+We Leak Info - die schnellste und größte Suchmaschine für Datenschutzverletzungen der Welt.
+Pulsedive: Scans von bösartigen URLs, IPs und Domänen, einschließlich Port-Scans und Webanforderungen.
+Buckets von Grayhatwarfar - Datenbank mit öffentlicher Suche nach Open Amazon S3 Buckets und deren Inhalten.
+Vigilante.pw - das verletzte Datenbankverzeichnis.
+builtwith - Finden Sie heraus, mit welchen Websites erstellt werden.
+NerdyData - Durchsuchen Sie den Quellcode des Webs nach Technologien auf Millionen von Websites.
+Zorexeye - Suche nach Websites, Bildern, Apps, Software und mehr.
+Mamonts offener FTP-Index - Wenn ein Ziel eine offene FTP-Site mit zugänglichem Inhalt hat, wird es hier aufgelistet.
+OSINT Framework - konzentriert sich auf das Sammeln von Informationen aus kostenlosen Tools oder Ressourcen.
+Maltiverse - ist ein Service, der sich an Cybersicherheitsanalysten richtet.
+Durchgesickerte Quelle - ist eine Zusammenarbeit von Daten, die online in Form einer Suche gefunden wurden.
+We Leak Info - um alltäglichen Menschen zu helfen, ihr Online-Leben zu sichern und Hackerangriffe zu vermeiden.
+pipl - ist der Ort, an dem Sie die Person hinter der E-Mail-Adresse, dem sozialen Benutzernamen oder der Telefonnummer finden.
+Missbrauch.ch - wird von einem zufälligen Schweizer betrieben, der Malware für eine gemeinnützige Organisation bekämpft.
+malc0de - Malware-Suchmaschine.
+Cybercrime Tracker - überwacht und verfolgt verschiedene Malware-Familien, die zur Begehung von Cyberkriminalität verwendet werden.
+shhgit - GitHub-Geheimnisse in Echtzeit finden.
+searchcode - hilft Ihnen, reale Beispiele für Funktionen, APIs und Bibliotheken zu finden.
+Insecam - das weltweit größte Verzeichnis von Online-Überwachungskameras.
+index-of - enthält großartige Dinge wie: Sicherheit, Hacking, Reverse Engineering, Kryptographie, Programmierung usw.
+Rapid7 Labs Open Data - ist eine großartige Ressource für Datensätze aus Project Sonar.
+Common Response Headers - die größte Datenbank mit HTTP-Antwortheadern.
+InQuest Labs - InQuest Labs ist ein offenes, interaktives und API-gesteuertes Datenportal für Sicherheitsforscher.
+
+▪️ Generatoren
+   thispersondoesnotexist - Erzeugen Sie gefälschte Gesichter mit einem Klick - endlose Möglichkeiten.
+KI-generierte Fotos - 100.000 KI-generierte Gesichter.
+fakenamegenerator - Ihre zufällig generierte Identität.
+Intigriti Redirector - offener Umleitungs-/SSRF-Nutzlastgenerator.
+
+▪️ Kennwörter
+   Bin ich gepwned? - Überprüfen Sie, ob Sie ein Konto haben, das durch eine Datenschutzverletzung kompromittiert wurde.
+dehashed - ist eine gehackte Datenbanksuchmaschine.
+Durchgesickerte Quelle - ist eine Zusammenarbeit von Daten, die online in Form einer Suche gefunden wurden.
+
+▪️ CVE/Exploits-Datenbanken
+   CVE Mitre - Liste der öffentlich bekannten Cybersicherheitsschwachstellen.
+CVE-Details - Erweiterte Datenbank für CVE-Sicherheitslücken.
+Exploit DB - CVE-konformes Archiv von öffentlichen Exploits und entsprechender anfälliger Software.
+0day.today - Exploits Market bietet Ihnen die Möglichkeit, Zero-Day-Exploits zu kaufen/verkaufen.
+Sploitus - die Exploit- und Tools-Datenbank.
+cxsecurity - Kostenlose Datenbank für Schwachstellen.
+Vulncode-DB - ist eine Datenbank für Schwachstellen und den entsprechenden Quellcode, falls verfügbar.
+cveapi - kostenlose API für CVE-Daten.
+
+▪️ Scanner für mobile Apps
+   ImmuniWeb® Mobile App Scanner - Testen Sie die Sicherheit und den Datenschutz von mobilen Apps (iOS und Android).
+Quixxi - kostenloser Mobile App Vulnerability Scanner für Android & iOS.
+Ostorlab - analysiert mobile Anwendungen, um Schwachstellen und potenzielle Schwachstellen zu identifizieren.
+
+▪️ Private Suchmaschinen
+   Startpage - die privateste Suchmaschine der Welt.
+searX - eine datenschutzfreundliche, hackbare Metasuchmaschine.
+darksearch - die 1. echte Dark-Web-Suchmaschine.
+Qwant - die Suchmaschine, die Ihre Privatsphäre respektiert.
+DuckDuckGo - die Suchmaschine, die Sie nicht verfolgt.
+Swisscows - datenschutzsichere Websuche
+Disconnect - die Suchmaschine, die Ihre Suchanfragen anonymisiert.
+MetaGer - die Suchmaschine, die anonyme Proxy- und versteckte Tor-Zweige verwendet.
+
+▪️ Sichere Webmail-Anbieter
+   CounterMail - Online-E-Mail-Dienst, der entwickelt wurde, um maximale Sicherheit und Privatsphäre zu bieten.
+Mail2Tor - ist ein versteckter Tor-Dienst, der es jedem ermöglicht, E-Mails anonym zu senden und zu empfangen.
+Tutanota - ist der sicherste E-Mail-Dienst der Welt und erstaunlich einfach zu bedienen.
+Protonmail - ist der weltweit größte sichere E-Mail-Dienst, der von CERN- und MIT-Wissenschaftlern entwickelt wurde.
+Startmail - private & verschlüsselte E-Mail leicht gemacht.
+
+▪️ Krypto
+   Keybase - es ist Open Source und basiert auf Public-Key-Kryptographie.
+
+▪️ PGP-Schlüsselserver
+   SKS OpenPGP Schlüsselserver - Dienste für die von OpenPGP verwendeten SKS-Schlüsselserver.
+Systeme/Dienstleistungen [Inhaltsverzeichnis]
+
+▪️ Betriebssysteme
+   Slackware - die "Unix-ähnlichste" Linux-Distribution.
+OpenBSD - Multi-Plattform-4.4BSD-basiertes UNIX-ähnliches Betriebssystem.
+HardenedBSD - HardenedBSD zielt darauf ab, innovative Lösungen zur Abwehr von Exploits und Sicherheit zu implementieren.
+Kali Linux - Linux-Distribution, die für Penetrationstests, ethisches Hacking und Netzwerksicherheitsbewertungen verwendet wird.
+Parrot Security OS - Cybersicherheit GNU/Linux-Umgebung.
+Backbox Linux - Penetrationstest und Sicherheitsbewertung orientierte Ubuntu-basierte Linux-Distribution.
+BlackArch - ist eine Arch Linux-basierte Penetrationstest-Distribution für Penetrationstester.
+Pentoo - ist eine sicherheitsorientierte Live-CD, die auf Gentoo basiert.
+Security Onion - Linux-Distribution für Intrusion Detection, Unternehmenssicherheitsüberwachung und Protokollverwaltung.
+Tails - ist ein Live-System, das darauf abzielt, Ihre Privatsphäre und Anonymität zu wahren.
+vedetta - OpenBSD-Router-Boilerplate.
+Qubes OS - ist ein sicherheitsorientiertes Betriebssystem, das Xen-basierte Virtualisierung verwendet.
+
+▪️ HTTP(s)-Dienste
+   Varnish Cache - HTTP-Beschleuniger für inhaltsintensive dynamische Websites.
+Nginx - Open-Source-Web- und Reverse-Proxy-Server, der Apache ähnelt, aber sehr leicht ist.
+OpenResty - ist eine dynamische Webplattform, die auf NGINX und LuaJIT basiert.
+Tengine - eine Distribution von Nginx mit einigen erweiterten Funktionen.
+Caddy Server - ist ein Open-Source-, HTTP/2-fähiger Webserver mit HTTPS als Standard.
+HAProxy - der zuverlässige, leistungsstarke TCP/HTTP-Load-Balancer.
+
+▪️ DNS-Dienste
+   Unbound - Validieren, Rekursiv und Zwischenspeichern von DNS-Resolvern (mit TLS).
+Knot Resolver - Zwischenspeichern der vollständigen Resolver-Implementierung, einschließlich einer Resolver-Bibliothek und eines Daemons.
+PowerDNS - ist ein autoritativer Open-Source-DNS-Server, der in C++ geschrieben und unter der GPL lizenziert ist.
+
+▪️ Weitere Dienstleistungen
+   3proxy - winziger kostenloser Proxy-Server.
+
+▪️ Sicherheit/Härtung
+   Emerald Onion - ist eine gemeinnützige Organisation nach 501 (c) (3) und ein Transit-Internetdienstanbieter (ISP).
+pi-hole - das Pi-hole® ist ein DNS-Sinkhole, das Ihre Geräte vor unerwünschten Inhalten schützt.
+Maltrail - System zur Erkennung bösartigen Datenverkehrs.
+security_monkey – überwacht AWS-, GCP-, OpenStack- und GitHub-Organisationen auf Assets und deren Änderungen im Laufe der Zeit.
+firecracker - sichere und schnelle microVMs für serverloses Computing.
+streisand - richtet einen neuen Server ein, auf dem WireGuard, OpenSSH, OpenVPN und mehr Ihrer Wahl ausgeführt werden.
+Netzwerke [Inhaltsverzeichnis]
+
+▪️ Werkzeuge
+   CapAnalysis - visuelles Web-Tool zur Analyse großer Mengen des erfassten Netzwerkverkehrs (PCAP-Analysator).
+netbox - IP-Adressmanagement- (IPAM) und DCIM-Tool (Data Center Infrastructure Management).
+
+▪️ Labs
+   NRE Labs - lernen Sie Automatisierung, indem Sie es tun. Jetzt, genau hier, in Ihrem Browser.
+
+▪️ Andere
+   LBNL's Network Research Group - Homepage der Network Research Group (NRG).
+Container/Orchestrierung [Inhaltsverzeichnis]
+
+▪️ CLI-Werkzeuge
+   gvisor - Container-Laufzeit-Sandbox.
+ctop - Top-ähnliche Schnittstelle für Containermetriken.
+
+▪️ Web-Werkzeuge
+   Moby - ein Gemeinschaftsprojekt für das Container-Ökosystem zur Zusammenstellung eines containerbasierten Systems.
+Traefik - Open Source Reverse Proxy/Load Balancer bietet eine einfachere Integration mit Docker und Let's Encrypt.
+kong - Das Cloud-native API-Gateway.
+Rancher - Komplette Container-Management-Plattform.
+Portainer - macht die Docker-Verwaltung einfach.
+nginx-proxy - Automatisierter nginx-Proxy für Docker-Container mit docker-gen.
+bunkerized-nginx - nginx-Docker-Image "standardmäßig sicher".
+
+▪️ Sicherheit
+   docker-bench-security: Sucht nach Dutzenden gängiger Best Practices für die Bereitstellung von Docker.
+trivy - Schwachstellen-Scanner für Container, geeignet für CI.
+Harbor - Cloud-natives Registrierungsprojekt, das Inhalte speichert, signiert und scannt.
+Houdini - Hunderte von anstößigen und nützlichen Docker-Images für das Eindringen in das Netzwerk.
+
+▪️ Handbücher/Tutorials/Best Practices
+   docker-cheat-sheet - ein kurzer Spickzettel für Docker.
+awesome-docker - eine kuratierte Liste von Docker-Ressourcen und -Projekten.
+docker_practice - Docker-Technologien lernen und verstehen, mit echter DevOps-Praxis!
+labs - ist eine Sammlung von Tutorials zum Erlernen der Verwendung von Docker mit verschiedenen Tools.
+dockerfiles - verschiedene Dockerfiles, die ich auf dem Desktop und auf Servern verwende.
+kubernetes-the-hard-way - Bootstrapping von Kubernetes auf die harte Tour auf der Google Cloud Platform. Keine Drehbücher.
+kubernetes-the-easy-way - Bootstrapping von Kubernetes auf einfache Weise auf der Google Cloud Platform. Keine Drehbücher.
+cheatsheet-kubernetes-A4 - Kubernetes CheatSheets in A4.
+k8s-security - Kubernetes-Sicherheitshinweise und Best Practices.
+kubernetes-production-best-practices - Checklisten mit Best Practices für produktionsreifes Kubernetes.
+kubernetes-production-best-practices - Kubernetes-Sicherheit - Best Practice-Leitfaden.
+kubernetes-failure-stories - ist eine Zusammenstellung öffentlicher Fehler-/Horrorgeschichten im Zusammenhang mit Kubernetes.
+Handbücher/Howtos/Tutorials [Inhaltsverzeichnis]
+
+▪️ Shell/Befehlszeile
+   pure-bash-bible - ist eine Sammlung von reinen Bash-Alternativen zu externen Prozessen.
+pure-sh-bible - ist eine Sammlung von reinen POSIX-sh-Alternativen zu externen Prozessen.
+bash-guide - ist eine Anleitung zum Erlernen von Bash.
+bash-handbook - für diejenigen, die Bash lernen möchten.
+Das Bash Hackers Wiki - enthält Dokumentationen jeglicher Art über GNU Bash.
+Shell & Utilities - beschreibt die Befehle, die Anwendungsprogrammen von POSIX-konformen Systemen angeboten werden.
+the-art-of-command-line - Beherrschen Sie die Befehlszeile auf einer Seite.
+Shell Style Guide - ein Shell-Styleguide für Open-Source-Projekte von Google.
+
+▪️ Texteditoren
+   Vim Cheat Sheet - großartige mehrsprachige Vim-Anleitung.
+
+▪️ Python
+   Awesome Python - eine kuratierte Liste großartiger Python-Frameworks, Bibliotheken, Software und Ressourcen.
+python-cheatsheet - umfassendes Python-Spickblatt.
+pythoncheatsheet.org - Grundlegende Referenz für Anfänger und fortgeschrittene Entwickler.
+
+▪️ Sed & Awk & Sonstiges
+   F'Awk yeah! - Erweiterte SED- und AWK-Verwendung (Parsing for Pentesters 3).
+
+▪️ *nix & Netzwerk
+   nixCraft - Linux- und Unix-Tutorials für neue und erfahrene Systemadministratoren.
+TecMint - der ideale Linux-Blog für Sysadmins & Geeks.
+Omnisecu - kostenlose Netzwerk-, Systemadministrations- und Sicherheits-Tutorials.
+linux-cheat - Linux-Tutorials und Spickzettel. Minimale Beispiele. Hauptsächlich benutzerfreundliche CLI-Dienstprogramme.
+LinuxUpskillChallenge - Erlernen Sie die Fähigkeiten, die für den Systemadministrator erforderlich sind.
+Unix Toolbox - Unix/Linux/BSD-Befehle und -Aufgaben, die für IT-Arbeiten oder für fortgeschrittene Benutzer nützlich sind.
+Linux Kernel Teaching - ist eine Sammlung von Vorlesungen und Übungen zu Linux-Kernel-Themen.
+htop erklärt - Erklärung von allem, was Sie in htop/top unter Linux sehen können.
+Linux Guide and Hints - Tutorials zur Systemadministration in Fedora und CentOS.
+strace-little-book - ein kleines Buch, das Strace vorstellt.
+linux-tracing-workshop - Beispiele und praktische Übungen für Linux-Tracing-Tools-Workshops.
+http2-explained - ein detailliertes Dokument, das HTTP/2 erklärt und dokumentiert.
+http3-explained - ein Dokument, das die Protokolle HTTP/3 und QUIC beschreibt.
+HTTP/2 in Aktion - eine hervorragende Einführung in den neuen HTTP/2-Standard.
+Lassen Sie uns einen TCP/IP-Stack programmieren - großartiges Zeug, um Netzwerk- und Systemprogrammierung auf einer tieferen Ebene zu lernen.
+Nginx Admin's Handbook - wie Sie die Leistung, Sicherheit und andere wichtige Dinge von NGINX verbessern können.
+nginxconfig.io - NGINX-Konfigurationsgenerator auf Steroiden.
+openSSH-Richtlinie - soll Betriebsteams bei der Konfiguration von OpenSSH-Server und -Client helfen.
+SSH-Handshake erklärt - ist eine relativ kurze Beschreibung des SSH-Handshakes.
+ISC's Knowledgebase - Sie finden einige allgemeine Informationen zu BIND 9, ISC DHCP und Kea DHCP.
+PacketLife.net - ein Ort, an dem Sie Notizen aufzeichnen können, während Sie für die CCNP-Zertifizierung von Cisco lernen.
+
+▪️ Microsoft
+   AD-Attack-Defense - Angriff und Verteidigung von Active Directory mit modernen Post-Exploitation-Aktivitäten.
+
+▪️ Großanlagen
+   Der System Design Primer - Erfahren Sie, wie Sie große Systeme entwerfen.
+Awesome Scalability – Best Practices für den Aufbau von hoher Skalierbarkeit, Hochverfügbarkeit, hoher Stabilität und mehr.
+Webarchitektur 101 - die grundlegenden Architekturkonzepte.
+
+▪️ Systemhärtung
+   CIS Benchmarks - sichere Konfigurationseinstellungen für über 100 Technologien, verfügbar als kostenloses PDF.
+Security Harden CentOS 7 - Dies führt Sie durch die Schritte, die zum Härten von CentOS erforderlich sind.
+CentOS 7 Server Hardening Guide - großartige Anleitung zum Härten von CentOS; mit OpenSCAP.
+awesome-security-hardening - ist eine Sammlung von Anleitungen, Tools und anderen Ressourcen zur Sicherheitshärtung.
+Der praktische Linux-Härtungsleitfaden - bietet einen allgemeinen Überblick über die Härtung von GNU/Linux-Systemen.
+Linux Hardening Guide - wie man Linux so weit wie möglich für Sicherheit und Datenschutz härtet.
+
+▪️ Sicherheit & Datenschutz
+   Hacking-Artikel - LRaj Chandel's Security & Hacking Blog.
+AWS-Sicherheitstools – machen Sie Ihre AWS-Cloud-Umgebung sicherer.
+Rawsec's CyberSecurity Inventory - eine Bestandsaufnahme von Tools und Ressourcen zum Thema CyberSecurity.
+Die illustrierte TLS-Verbindung - jedes Byte einer TLS-Verbindung erklärt und wiedergegeben.
+SSL-Forschung - Best Practices für die SSL- und TLS-Bereitstellung von SSL Labs.
+SELinux Game - Lernen Sie SELinux durch Handeln. Löse Rätsel, zeige Skillz.
+Zertifikate und PKI - alles, was Sie über Zertifikate und PKI wissen sollten, aber zu viel Angst haben, danach zu fragen.
+Die Kunst der Subdomain-Enumeration - eine Referenz für Subdomain-Enumerationstechniken.
+Beenden von Google - die umfassende Anleitung zum Beenden von Google.
+
+▪️ Web-Apps
+   OWASP - weltweite gemeinnützige Wohltätigkeitsorganisation, die sich auf die Verbesserung der Sicherheit von Software konzentriert.
+OWASP ASVS 3.0.1 - OWASP Application Security Verification Standardprojekt.
+OWASP ASVS 3.0.1 Web App - einfache Web-App, die Entwicklern hilft, die ASVS-Anforderungen zu verstehen.
+OWASP ASVS 4.0 - ist eine Liste von Anforderungen oder Tests für die Anwendungssicherheit.
+OWASP Testing Guide v4 - enthält ein "Best Practice"-Framework für Penetrationstests.
+OWASP Dev Guide - Dies ist die Entwicklungsversion des OWASP Developer Guide.
+OWASP WSTG - ist ein umfassender Open-Source-Leitfaden zum Testen der Sicherheit von Webanwendungen.
+OWASP API Security Project - konzentriert sich speziell auf die zehn größten Schwachstellen in der API-Sicherheit.
+Mozilla Web Security - Helfen Sie Betriebsteams bei der Erstellung sicherer Webanwendungen.
+security-bulletins - Sicherheitsbulletins, die sich auf Netflix Open Source beziehen.
+API-Security-Checklist - Sicherheitsgegenmaßnahmen beim Entwerfen, Testen und Freigeben Ihrer API.
+CORS aktivieren: Aktivieren Sie die ursprungsübergreifende Ressourcenfreigabe.
+Application Security Wiki - ist eine Initiative, um alle Ressourcen zur Anwendungssicherheit an einem Ort bereitzustellen.
+Weird Proxies - Reverse-Proxy-bezogene Angriffe; Es ist das Ergebnis der Analyse verschiedener Proxys.
+Webshells - großartige Serie über bösartige Nutzlasten.
+Practical Web Cache Poisoning - zeigt Ihnen, wie Sie Websites mithilfe esoterischer Webfunktionen kompromittieren können.
+Versteckte Verzeichnisse und Dateien - als Quelle für vertrauliche Informationen über Webanwendungen.
+Explosive Blog - großartiger Blog über Cybersec und Pentests.
+Sicherheits-Cookies - Dieses Dokument befasst sich eingehend mit der Cookie-Sicherheit.
+APISecurityBestPractices - helfen Ihnen, Geheimnisse (API-Schlüssel, DB-Anmeldeinformationen, Zertifikate) aus dem Quellcode herauszuhalten.
+
+▪️ Alles in einem
+   LZone Spickzettel - alle Spickzettel.
+Dan's Cheat Sheets's - umfangreiche Spickzettel-Dokumentation.
+Rico's Cheatsheets - dies ist eine bescheidene Sammlung von Cheatsheets.
+DevDocs API - kombiniert mehrere API-Dokumentationen in einer schnellen, organisierten und durchsuchbaren Oberfläche.
+cheat.sh - der einzige Spickzettel, den Sie brauchen.
+gnulinux.guru - Sammlung von Spickzetteln über Bash, Vim und Netzwerke.
+Web Skills - visueller Überblick über nützliche Fähigkeiten, die Sie als Webentwickler erlernen können.
+
+▪️ E-Books
+   free-programming-books - Liste kostenloser Lernressourcen in vielen Sprachen.
+
+▪️ Andere
+   CTF-Serie: Anfällige Maschinen - Die folgenden Schritte können befolgt werden, um Schwachstellen und Exploits zu finden.
+50M_CTF_Writeup - 50 Millionen US-Dollar CTF von Hackerone - Aufschrift.
+CTF-Aufgaben - ein Archiv von CTF-Herausforderungen auf niedriger Ebene, das im Laufe der Jahre entwickelt wurde.
+Wie starte ich die RE/Malware-Analyse? - Sammlung einiger Hinweise und nützlicher Links für Anfänger.
+Das C10K-Problem - es ist an der Zeit, dass Webserver zehntausend Clients gleichzeitig verarbeiten, finden Sie nicht?
+Wie aus 1500 Bytes die MTU des Internets wurde - tolle Geschichte über die Maximum Transmission Unit.
+Der Profiler des armen Mannes - wie der von dtrace - bietet nicht wirklich Methoden, um zu sehen, welche Programme blockieren.
+HTTPS auf Stack Overflow - dies ist die Geschichte einer langen Reise in Bezug auf die Implementierung von SSL.
+Julia's Drawings - einige Zeichnungen über Programmierung und Unix-Welt, Zines über Systeme und Debugging-Tools.
+Hash-Kollisionen - Dieses großartige Repository konzentriert sich auf die Ausnutzung von Hash-Kollisionen.
+sha256-animation - Animation der SHA-256-Hash-Funktion in Ihrem Terminal.
+SHA256-Algorithmus - Der SHA256-Algorithmus wird online Schritt für Schritt visuell erklärt.
+BGP trifft Katze - nach 3072 Stunden BGP-Manipulation ist es Job Snijders gelungen, einen Nyancat zu zeichnen.
+bgp-battleships - Schlachtschiffe über BGP spielen.
+Was passiert, wenn... - Sie google.com in Ihren Browser eingeben und die Eingabetaste drücken?
+how-web-works - basierend auf dem 'Was passiert, wenn...' Aufbewahrungsort.
+HTTPS in der realen Welt - großartiges Tutorial erklärt, wie HTTPS in der realen Welt funktioniert.
+Gitlab und NFS-Bug - wie wir zwei Wochen damit verbracht haben, einen NFS-Bug im Linux-Kernel zu jagen.
+Gitlab schmilzt zusammen - Postmortem zum Datenbankausfall vom 31. Januar 2017 mit den Lektionen, die wir gelernt haben.
+Wie man ein Hacker wird - wenn Sie ein Hacker werden wollen, lesen Sie weiter.
+Betriebskosten in der CPU - sollte helfen, die Kosten für bestimmte Operationen in CPU-Taktraten abzuschätzen.
+Lassen Sie uns eine einfache Datenbank erstellen - einen SQLite-Klon von Grund auf in C schreiben.
+simple-computer - großartige Ressource, um zu verstehen, wie Computer unter der Haube funktionieren.
+Die Geschichte von "Have I been pwned?" – Arbeiten mit 154 Millionen Datensätzen in Azure Table Storage.
+TOP500 Supercomputer - zeigt die 500 leistungsstärksten kommerziell erhältlichen Computersysteme.
+Wie man einen 8-GPU-Passwort-Cracker erstellt - stundenlange Frustration wie bei Desktop-Komponenten.
+CERN-Rechenzentrum - 3D-Visualisierungen der CERN-Computerumgebungen (und mehr).
+Wie gefickt ist meine Datenbank - bewerten Sie mit dieser praktischen Website, wie abgefuckt Ihre Datenbank ist.
+Linux-Fehlerbehebung 10Ausgabe 1 , 2016 - alles ist ein DNS-Problem...
+Fünf Warum - Sie wissen, was das Problem ist, aber Sie können es nicht lösen?
+Maersk, me & notPetya - wie hat Ransomware erfolgreich Hunderte von Domain-Controllern gekapert?
+howhttps.works - wie HTTPS funktioniert ... in einem Comic!
+howdns.works - eine lustige und farbenfrohe Erklärung, wie DNS funktioniert.
+POSTGRESQLCO. NF - Ihre postgresql.conf-Dokumentation und Empfehlungen.
+Inspirierende Listen [Inhaltsverzeichnis]
+
+▪️ SysOps/DevOps
+   Awesome Sysadmin - erstaunlich tolle Open-Source-Sysadmin-Ressourcen.
+Awesome Shell - fantastische Befehlszeilen-Frameworks, Toolkits, Anleitungen und Gizmos.
+Befehlszeilen-Textverarbeitung - Suchen von Text zum Suchen und Ersetzen, Sortieren zur Verschönerung und mehr.
+Awesome Pcaptools - Sammlung von Tools, die von anderen Forschern entwickelt wurden, um Netzwerkspuren zu verarbeiten.
+awesome-ebpf - eine kuratierte Liste großartiger Projekte im Zusammenhang mit eBPF.
+Linux-Netzwerkleistung - wobei einige der Netzwerk-sysctl-Variablen in den Linux/Kernel-Netzwerkfluss passen.
+Awesome Postgres - Liste großartiger PostgreSQL-Software, Bibliotheken, Tools und Ressourcen.
+quick-SQL-cheatsheet - eine kurze Erinnerung an alle SQL-Abfragen und Beispiele für deren Verwendung.
+Awesome-Selfhosted - Liste von Freie-Software-Netzwerkdiensten und Webanwendungen, die lokal gehostet werden können.
+Liste der Anwendungen - riesige Liste von Apps, die nach Kategorien sortiert sind, als Referenz für diejenigen, die nach Paketen suchen.
+CS-Interview-Knowledge-Map - Erstellen Sie die beste Interview-Map.
+DevOps-Guide - DevOps-Leitfaden von Basic bis Advanced mit Interviewfragen und Notizen.
+FreeBSD Journal - Es ist eine großartige Liste von periodischen Zeitschriften über FreeBSD und andere wichtige Dinge.
+devops-interview-questions - enthält Interviewfragen zu verschiedenen DevOps- und SRE-bezogenen Themen.
+
+▪️ Entwickler
+   Web Developer Roadmap - Roadmaps, Artikel und Ressourcen, die Ihnen helfen, Ihren Weg zu wählen, zu lernen und sich zu verbessern.
+Front-End-Checkliste - die perfekte Front-End-Checkliste für moderne Websites und akribische Entwickler.
+Front-End-Performance-Checkliste - Front-End-Performance-Checkliste, die schneller läuft als die anderen.
+Pythons magische Methoden - was sind magische Methoden? Sie sind alles in objektorientiertem Python.
+wtfpython - eine Sammlung überraschender Python-Schnipsel und weniger bekannter Funktionen.
+js-dev-reads - eine Liste von Büchern und Artikeln, die der anspruchsvolle Webentwickler lesen kann.
+Leitfaden für Commit-Nachrichten - ein Leitfaden zum Verständnis der Bedeutung von Commit-Nachrichten.
+
+▪️ Sicherheit/Pentesting
+   Awesome Web Security - eine kuratierte Liste von Web Security-Materialien und -Ressourcen.
+awesome-cyber-skills - eine kuratierte Liste von Hacking-Umgebungen, in denen Sie Ihre Cyber-Fähigkeiten trainieren können.
+awesome-devsecops - eine maßgebliche Liste großartiger devsecops-Tools.
+awesome-osint - ist eine kuratierte Liste von erstaunlich großartigen OSINTs.
+HolyTips - Tipps und Tutorials zu Bug Bounty Hunting und Web App Security.
+awesome-threat-intelligence - eine kuratierte Liste von Awesome Threat Intelligence-Ressourcen.
+Red-Teaming-Toolkit - eine Sammlung von Open-Source- und kommerziellen Tools, die den Betrieb von Red Teams unterstützen.
+awesome-burp-extensions - eine kuratierte Liste von erstaunlich tollen Burp Extensions.
+Kostenlose Sicherheits-eBooks - Liste von kostenlosen Sicherheits- und Hacking-eBooks.
+Hacking-Security-Ebooks - Top 100 Hacking & Security E-Books.
+Datenschutz respektierend - kuratierte Liste von Diensten und Software, die den Datenschutz respektieren.
+Reverse-Engineering - Liste großartiger Reverse-Engineering-Ressourcen.
+linux-re-101 - eine Sammlung von Ressourcen für Linux-Reverse Engineering.
+reverseengineering-reading-list - eine Liste von Reverse Engineering Artikeln, Büchern und Papieren.
+Awesome-WAF - eine kuratierte Liste großartiger Web-App-Firewalls (WAF).
+awesome-shodan-queries - interessante, lustige und deprimierende Suchanfragen, die in shodan.io eingefügt werden können.
+RobotsDisallowed - eine kuratierte Liste der häufigsten und interessantesten robots.txt unzulässigen Verzeichnisse.
+HackingNeuralNetworks - ist ein kleiner Kurs zur Ausnutzung und Verteidigung neuronaler Netze.
+Wildcard-Zertifikate - Warum Sie wahrscheinlich kein Wildcard-Zertifikat verwenden sollten.
+Verwenden Sie keine VPN-Dienste - was jeder "VPN-Anbieter" von Drittanbietern tut.
+awesome-yara - eine kuratierte Liste großartiger YARA-Regeln, -Tools und -Personen.
+macOS-Security-and-Privacy-Guide - Anleitung zum Schutz und zur Verbesserung der Privatsphäre unter macOS.
+macos_security - macOS-Projekt zur Einhaltung der Sicherheitsvorschriften.
+awesome-sec-talks - ist eine gesammelte Liste großartiger Sicherheitsgespräche.
+Filme für Hacker - Liste von Filmen, die jeder Hacker und Cyberpunk sehen muss.
+Cryptography_1 - Materialien, die während der Teilnahme am Stanford Crypto-Kurs von Prof. Dan Boneh verwendet wurden.
+Crypton - Bibliothek zum Erlernen und Üben von offensiver und defensiver Kryptographie.
+
+▪️ Andere
+   Cheatography - über 3.000 kostenlose Spickzettel, Wiederholungshilfen und Kurzreferenzen.
+awesome-static-analysis - statische Analysewerkzeuge für alle Programmiersprachen.
+Informatik - Weg zu einer kostenlosen autodidaktischen Ausbildung in Informatik.
+Post-Mortems: ist eine Sammlung von Post-Mortems (Konfigurationsfehler, Hardwarefehler und mehr).
+Build-Your-Own-X - Bauen Sie Ihr eigenes (Technologie hier einfügen).
+Project-Based-Tutorials-in-C - ist eine kuratierte Liste von projektbasierten Tutorials in C.
+The-Documentation-Compendium - verschiedene README-Vorlagen und Tipps zum Schreiben hochwertiger Dokumentation.
+awesome-python-applications - freie Software, die großartig funktioniert und zufällig auch Open-Source-Python ist.
+awesome-public-datasets - eine themenzentrierte Liste offener HQ-Datensätze.
+machine-learning-algorithms - eine kuratierte Liste aller Algorithmen und Konzepte des maschinellen Lernens.
+Blogs/Podcasts/Videos  [Inhaltsverzeichnis]
+
+▪️ SysOps/DevOps
+   Varnish für PHP-Entwickler - sehr interessante Präsentation von Varnish von Mattias Geniar.
+Ein Netflix-Leitfaden für Microservices - spricht über die chaotische und lebendige Welt der Microservices bei Netflix.
+
+▪️ Entwickler
+   Vergleich von C mit Maschinensprache - Vergleichen Sie eine einfache C-App mit dem kompilierten Maschinencode dieses Programms.
+
+▪️ Geekige Personen
+   Brendan Greggs Blog - ist ein Branchenexperte für Rechenleistung und Cloud Computing.
+Gynvael "GynDream" Coldwind - ist IT-Sicherheitsingenieur bei Google.
+Michał "lcamtuf" Zalewski - White-Hat-Hacker, Computersicherheitsexperte.
+Mattias Geniar - Entwickler, Systemadministrator, Blogger, Podcaster und Redner.
+Nick Craver - Softwareentwickler und Systemadministrator für Stack Exchange.
+Scott Helme - Sicherheitsforscher, Redner und Gründer von securityheaders.com and report-uri.com.
+Brian Krebs - Die Washington Post und jetzt ein unabhängiger investigativer Journalist.
+Bruce Schneier - ist ein international renommierter Sicherheitstechnologe, der als "Sicherheitsguru" bezeichnet wird.
+Chrissy Morgan - Verfechterin des praktischen Lernens, Chrissy nimmt auch an Bug-Bounty-Programmen teil.
+Andy Gill - ist im Herzen ein Hacker, der als leitender Penetrationstester arbeitet.
+Daniel Miessler - Cybersicherheitsexperte und Autor.
+Samy Kamkar - ist ein amerikanischer Datenschutz- und Sicherheitsforscher, Computerhacker.
+Javvad Malik - ist ein Sicherheitsanwalt bei AlienVault, ein Blogger, Event-Redner und Branchenkommentator.
+Graham Cluley - öffentlicher Redner und unabhängiger Computersicherheitsanalyst.
+Kacper Szurek - Detektionsingenieur bei ESET.
+Troy Hunt - Web-Sicherheitsexperte, bekannt für öffentliche Aufklärung und Öffentlichkeitsarbeit zu Sicherheitsthemen.
+raymii.org - Systemadministrator, der sich auf den Aufbau von Cloud-Umgebungen mit hoher Verfügbarkeit spezialisiert hat.
+Robert Penz - IT-Sicherheitsexperte.
+
+▪️ Geekige Blogs
+   Linux Audit - der Linux-Sicherheitsblog über Auditing, Härtung und Compliance von Michael Boelen.
+Linux Security Expert - Schulungen, Anleitungen, Checklisten, Sicherheitstools und mehr.
+The Grymoire - Sammlung nützlicher Beschwörungsformeln für Zauberer, seien es Computerzauberer, Magier oder was auch immer.
+Secjuice - ist die einzige gemeinnützige, unabhängige und von Freiwilligen geführte Publikation im Bereich der Informationssicherheit.
+Decipher - Sicherheitsnachrichten, die informieren und inspirieren.
+
+▪️ Geeky Vendor Blogs
+   Tenable Podcast - Gespräche und Interviews im Zusammenhang mit Cyber Exposure und mehr.
+Sophos - Threat News Room, der Ihnen Neuigkeiten, Meinungen, Ratschläge und Forschungsergebnisse zu Computersicherheitsproblemen bietet.
+Tripwire State of Security - Blog mit den neuesten Nachrichten, Trends und Erkenntnissen zu aktuellen Sicherheitsthemen.
+Malwarebytes Labs Blog - Sicherheitsblog zielt darauf ab, Insider-Nachrichten über Cybersicherheit bereitzustellen.
+TrustedSec - neueste Nachrichten und Trends zur Cybersicherheit.
+PortSwigger Web Security Blog - über Sicherheitslücken in Web-Apps und Top-Tipps von unserem Team für Web-Sicherheit.
+AT&T Cybersecurity-Blog - Neuigkeiten zu neuen Bedrohungen und praktische Ratschläge zur Vereinfachung der Bedrohungserkennung.
+Thycotic - hier informieren sich CISOs und IT-Administratoren über Branchentrends, IT-Sicherheit und mehr.
+
+▪️ Geeky Cybersecurity-Podcasts
+   Risky Business - ist ein wöchentlicher Podcast zur Informationssicherheit mit Nachrichten und ausführlichen Interviews.
+Cyber, von Motherboard - Geschichten, und konzentrieren Sie sich auf die Ideen zur Cybersicherheit.
+Tenable Podcast - Gespräche und Interviews im Zusammenhang mit Cyber Exposure und mehr.
+Cybercrime Investigations - Podcast von Geoff White über Cyberkriminalität.
+Der Club der vielen Hüte - mit Geschichten von einer Vielzahl von Infosec-Leuten (Whitehat, Greyhat und Blackhat).
+Darknet Diaries - wahre Geschichten von der dunklen Seite des Internets.
+OSINTCurious Webcasts - ist die investigative Neugier, die Menschen hilft, in OSINT erfolgreich zu sein.
+Security Weekly - die neuesten Nachrichten zu Informationssicherheit und Hacking.
+
+▪️ Geeky Cybersecurity-Videoblogs
+   Rev3RSE-Sicherheit - offensiv, binäre Ausnutzung, Web-App-Sicherheit, Härtung, rotes Team, blaues Team.
+LiveOverflow - viel fortgeschrittenere Themen als das, was normalerweise in kostenpflichtigen Online-Kursen angeboten wird - aber kostenlos.
+J4vv4D - die wichtigen Informationen zu unserer Internetsicherheit.
+CyberTalks - Vorträge, Interviews und Artikel über Cybersicherheit.
+
+▪️ Beste persönliche Twitter-Konten
+   @blackroomsec - ein White-Hat-Hacker/Pentester. Intergalaktischer Minensucher-Champion 1990.
+@MarcoCiappelli - Mitbegründer @ITSPmagazine, an der Schnittstelle von IT-Sicherheit und Gesellschaft.
+@binitamshah - Linux-Evangelist. Malware. Kernel Dev. Sicherheits-Enthusiast.
+@joe_carson - ein InfoSec-Profi und Technikfreak.
+@mikko - CRO bei F-Secure, Reverse Engineer, TED-Speaker, Superschurke.
+@esrtweet - oft als ESR bezeichnet, ist ein amerikanischer Softwareentwickler und Open-Source-Software-Befürworter.
+@gynvael - Sicherheitsforscher/Programmierer, @DragonSectorCTF Gründer/Spieler, technischer Streamer.
+@x0rz - Sicherheitsforscher und Cyber-Beobachter.
+@hasherezade - Programmierer, Malware-Analyst. Autor von PEbear, PEsieve, libPeConv.
+@TinkerSec - Tüftler, Cypherpunk, Hacker.
+@alisaesage - unabhängiger Hacker und Forscher.
+@SwiftOnSecurity - Systemsicherheit, Arbeitsschutz, Systemadministrator, Autor von decentsecurity.com.
+@dakami - ist eine von nur sieben Personen mit der Befugnis, die DNS-Stammschlüssel wiederherzustellen.
+@samykamkar - ist ein berühmter "Grey-Hat"-Hacker, Sicherheitsforscher und Schöpfer des MySpace-Wurms "Samy".
+@securityweekly - Gründer und CTO des Podcast-Netzwerks Security Weekly.
+@jack_daniel - @SecurityBSides Mitbegründer.
+@thegrugq - Sicherheitsforscher.
+@matthew_d_green - ein Kryptograph und Professor an der Johns Hopkins University.
+
+▪️ Beste kommerzielle Twitter-Konten
+   @haveibeenpwned - Überprüfen Sie, ob Sie ein Konto haben, das durch eine Datenschutzverletzung kompromittiert wurde.
+@bugcrowd - mehr Fortune-500-Unternehmen vertrauen darauf als jede andere Crowdsourcing-Sicherheitsplattform.
+@Malwarebytes - vertrauenswürdigstes Sicherheitsunternehmen. Unübertroffene Bedrohungstransparenz.
+@sansforensics - der weltweit führende Anbieter von digitaler Forensik und Incident Response.
+@attcyber - Die Edge-to-Edge-Technologien von AT&T Cybersecurity bieten Bedrohungsinformationen und mehr.
+@TheManyHatsClub - ein auf Informationssicherheit ausgerichteter Podcast und eine Gruppe von Personen aus allen Gesellschaftsschichten.
+@hedgehogsec - Hedgehog Cyber. Gibraltar und Manchesters führende Boutique-Informationssicherheitsfirma.
+@NCSC - das Nationale Zentrum für Cybersicherheit. Wir tragen dazu bei, Großbritannien zum sichersten Ort zum Leben und Arbeiten im Internet zu machen.
+@Synacktiv - IT-Sicherheitsexperten.
+
+▪️ Ein Stück Geschichte
+   Wie man Dinge bei ARL macht - wie man Modems konfiguriert, Images scannt, CD-ROMs bespielt und anderes.*
+
+▪️ Andere
+   Diffie-Hellman-Schlüsselaustausch (Kurzversion) - so funktionierte der Diffie-Hellman-Schlüsselaustausch.
+Hacking/Penetrationstests [Inhaltsverzeichnis]
+
+▪️ Pentester arsenal Tools
+   Sandcat Browser - ein penetrationsorientierter Browser mit vielen bereits integrierten erweiterten Funktionen.
+Metasploit - Tool und Framework für Pentesting-System, Web und vieles mehr.
+Burp Suite - Tool zum Testen der Sicherheit von Webanwendungen, zum Abfangen von Proxys zum Abspielen, Injizieren, Scannen und Fuzzen.
+OWASP Zed Attack Proxy - Abfangen des Proxys zum Abspielen, Injizieren, Scannen und Fuzzen von HTTP-Anfragen.
+w3af - ist ein Angriffs- und Audit-Framework für Webanwendungen.
+mitmproxy - ein interaktiver TLS-fähiger HTTP-Proxy zum Abfangen von HTTP für Penetrationstester.
+Nikto2 - Webserver-Scanner, der umfassende Tests gegen Webserver für mehrere Elemente durchführt.
+sqlmap - Tool, das den Prozess der Erkennung und Ausnutzung von SQL-Injection-Fehlern automatisiert.
+Recon-ng - ist ein voll funktionsfähiges Web Reconnaissance-Framework, das in Python geschrieben ist.
+AutoRecon - ist ein Netzwerkaufklärungstool, das eine automatisierte Aufzählung von Diensten durchführt.
+Faraday - eine integrierte Multiuser-Pentest-Umgebung.
+Photon - unglaublich schneller Crawler, der für OSINT entwickelt wurde.
+XSStrike - die fortschrittlichste XSS-Erkennungssuite.
+Sn1per - automatisiertes Pentest-Framework für offensive Sicherheitsexperten.
+vuls - ist ein agentenloser Schwachstellenscanner für Linux, FreeBSD und andere.
+Tsunami - ist ein Allzweck-Netzwerksicherheitsscanner mit einem erweiterbaren Plugin-System.
+aquatone - ein Werkzeug für Domänenüberflüge.
+BillCipher - Tool zum Sammeln von Informationen für eine Website oder IP-Adresse.
+WhatWaf - Erkennen und Umgehen von Web Application Firewalls und Schutzsystemen.
+Corsy - CORS-Scanner für Fehlkonfigurationen.
+Raccoon - ist ein leistungsstarkes offensives Sicherheitstool für Aufklärung und Schwachstellen-Scan.
+dirhunt - Findet Webverzeichnisse ohne Bruteforce.
+John The Ripper - ist ein schneller Passwort-Cracker, der derzeit für viele Varianten von Unix, Windows und anderen verfügbar ist.
+Hashcat - Das schnellste und fortschrittlichste Dienstprogramm zur Wiederherstellung von Passwörtern der Welt.
+p0f - ist ein Tool, um die Akteure hinter jeder zufälligen TCP/IP-Kommunikation zu identifizieren.
+ssh_scan - ein Prototyp einer SSH-Konfiguration und eines Richtlinienscanners.
+LeakLooker - finde offene Datenbanken - unterstützt von Binaryedge.io
+exploitdb - durchsuchbares Archiv aus der Exploit-Datenbank.
+getsploit - ist ein Befehlszeilenprogramm zum Suchen und Herunterladen von Exploits.
+ctf-tools - Einige Setup-Skripte für Sicherheitsforschungswerkzeuge.
+pwntools - CTF-Framework und Exploit-Entwicklungsbibliothek.
+security-tools - sammelnvon kleinen Sicherheitstools, die hauptsächlich in Python erstellt wurden. CTFs, Pentests und so weiter.
+pentestpackage - ist ein Paket von Pentest-Skripten.
+python-pentest-tools - Python-Tools für Penetrationstester.
+fuzzdb - Wörterbuch der Angriffsmuster und Primitive für die Fehlerinjektion von Black-Box-Anwendungen.
+AFL - ist ein kostenloser Software-Fuzzer, der von Google gepflegt wird.
+AFL++ - ist AFL mit Community-Patches.
+syzkaller - ist ein unüberwachter, coverage-geführter Kernel-Fuzzer.
+pwndbg - Exploit-Entwicklung und Reverse Engineering mit GDB leicht gemacht.
+GDB PEDA - Python Exploit Entwicklungshilfe für GDB.
+IDA - Multiprozessor-Disassembler und Debugger, der für das Reverse Engineering von Malware nützlich ist.
+radare2 - Framework für Reverse-Engineering und Analyse von Binärdateien.
+routersploit - Exploit-Framework für eingebettete Geräte.
+Ghidra - ist ein Software-Reverse-Engineering-Framework (SRE).
+Cutter - ist eine SRE-Plattform, die den Decompiler von Ghidra integriert.
+Vulnreport - Open-Source-Plattform für Pentesting-Management und -Automatisierung von Salesforce Product Security.
+Mentalist - ist ein grafisches Werkzeug zur Generierung von benutzerdefinierten Wortlisten.
+Archerysec - Vulnerability Assessment and Management hilft bei der Durchführung von Scans und der Verwaltung von Schwachstellen.
+Osmedeus - vollautomatisches offensives Sicherheitstool für Aufklärung und Schwachstellen-Scan.
+beef - Das Browser-Exploitation-Framework-Projekt.
+AutoSploit - automatisierter Massenausbeuter.
+SUDO_KILLER - ist ein Tool zur Identifizierung und Ausnutzung von Fehlkonfigurationen und Schwachstellen von sudo-Regeln.
+Yara - das zum Muster passende Schweizer Messer.
+mimikatz - ein kleines Tool, um mit der Windows-Sicherheit zu spielen.
+Sherlock - Suchen Sie Social-Media-Konten nach Benutzernamen in sozialen Netzwerken.
+OWASP Threat Dragon - ist ein Tool zur Erstellung von Bedrohungsmodelldiagrammen und zur Aufzeichnung möglicher Bedrohungen.
+
+▪️ Pentest-Lesezeichen-Sammlung
+   PTES - der Ausführungsstandard für Penetrationstests.
+Pentests MindMap - erstaunliche Mindmap mit anfälligen Apps und Systemen.
+WebApps Security Tests MindMap - unglaubliche Mindmap für WebApps-Sicherheitstests.
+Brute XSS - beherrschen Sie die Kunst des Cross Site Scripting.
+XSS-Spickzettel - enthält viele Vektoren, die Ihnen helfen können, WAFs und Filter zu umgehen.
+Offensive Security Bookmarks - Sammlung von Sicherheitslesezeichen, alles Dinge, die der Autor zum Bestehen von OSCP benötigt.
+Awesome Pentest Cheat Sheets - Sammlung von Spickzetteln, die für Pentests nützlich sind.
+Awesome Hacking von HackWithGithub - tolle Listen für Hacker, Pentester und Sicherheitsforscher.
+Awesome Hacking von carpedm20 - eine kuratierte Liste großartiger Hacking-Tutorials, Tools und Ressourcen.
+Awesome Hacking Resources - Sammlung von Hacking-/Penetrationstest-Ressourcen, um Sie besser zu machen.
+Awesome Pentest - Sammlung großartiger Penetrationstest-Ressourcen, Tools und anderer glänzender Dinge.
+Awesome-Hacking-Tools - ist eine kuratierte Liste großartiger Hacking-Tools.
+Hacking Cheat Sheet - Autor von Hacking- und Pentesting-Notizen.
+blackhat-arsenal-tools - offizielles Black Hat Arsenal Security Tools Repository.
+Penetrationstests und WebApp-Spickzettel - die vollständige Liste der Infosec-bezogenen Spickzettel.
+Cyber Security Resources - enthält Tausende von Referenzen und Ressourcen zur Cybersicherheit.
+Pentest-Lesezeichen - es gibt eine Menge Pentest-Blogs.
+Cheatsheet-God - Referenzbank für Penetrationstests - OSCP/PTP & PTX Spickzettel.
+ThreatHunter-Playbook - zur Unterstützung der Entwicklung von Techniken und Hypothesen für Jagdkampagnen.
+Beginner-Network-Pentesting - Hinweise für den Anfänger-Netzwerk-Pentesting-Kurs.
+OSCPRepo - ist eine Liste von Ressourcen, die der Autor in Vorbereitung auf das OSCP gesammelt hat.
+PayloadsAllTheThings - eine Liste nützlicher Payloads und Umgehungen für Web Application Security und Pentest/CTF.
+payloads - git alle Payloads! Eine Sammlung von Webangriffsnutzlasten.
+command-injection-payload-list - Liste der Befehlsinjektionsnutzlasten.
+Awesome Shodan Search Queries - großartige Suchanfragen, die Sie in Shodan einbinden können.
+AwesomeXSS - ist eine Sammlung von Awesome XSS-Ressourcen.
+php-webshells - gängige PHP-Webshells.
+Spickzettel für Pentesting-Tools - eine schnelle Referenzübersicht für typische Penetrationstests.
+OWASP Cheat Sheet Series - ist eine Sammlung hochwertiger Informationen zu bestimmten Themen der Anwendungssicherheit.
+OWASP-Abhängigkeitsprüfung - ist eine offeneurce solution den OWASP Top 10 2013 Eintrag.
+OWASP ProActive Controls - OWASP Top 10 der proaktiven Kontrollen 2018.
+PENTESTING-BIBEL - Hacking & Penetrationstests & Red Team & Cyber Security Ressourcen.
+Pentest-Wiki - ist eine kostenlose Online-Sicherheits-Wissensbibliothek für Pentester/Forscher.
+DEF CON Media Server - tolles Zeug von DEFCON.
+Awesome Malware Analysis - eine kuratierte Liste großartiger Tools und Ressourcen zur Malware-Analyse.
+SQL Injection Cheat Sheet - detailliertes technisches Zeug über die vielen verschiedenen Varianten der SQL Injection.
+Entersoft Knowledge Base - großartige und detaillierte Referenz zu Schwachstellen.
+HTML5 Security Cheatsheet - eine Sammlung von HTML5-bezogenen XSS-Angriffsvektoren.
+XSS String Encoder - zum Generieren von XSS-Code, um Ihre Eingabevalidierungsfilter gegen XSS zu überprüfen.
+go awayBins - Liste von Unix-Binärdateien, die von einem Angreifer ausgenutzt werden können, um lokale Sicherheitsbeschränkungen zu umgehen.
+Guifre Ruiz Notes - Sammlung von Sicherheits-, System-, Netzwerk- und Pentest-Spickzetteln.
+SSRF-Spitzen - eine Sammlung von SSRF-Spitzen.
+shell-storm repo CTF - großartiges Archiv von CTFs.
+ctf - CTF (Capture The Flag) Beschreibungen, Code-Schnipsel, Notizen, Skripte.
+My-CTF-Web-Challenges - Sammlung von CTF Web Challenges.
+MSTG - Der Mobile Security Testing Guide (MSTG) ist ein umfassendes Handbuch für Sicherheitstests für mobile Apps.
+Internal-Pentest-Playbook - Hinweise zu den häufigsten Dingen für einen internen Netzwerk-Penetrationstest.
+KeyHacks - zeigt schnelle Möglichkeiten, wie API-Schlüssel, die von einem Bug-Bounty-Programm geleakt wurden, überprüft werden können.
+securitum/research - verschiedene Proof of Concepts der Sicherheitsforschung von Securitum.
+public-pentesting-reports - ist eine Liste von öffentlichen Pentest-Berichten, die von mehreren beratenden Sicherheitsgruppen veröffentlicht wurden.
+awesome-bug-bounty - ist eine umfassende, kuratierte Liste verfügbarer Bug Bounty.
+bug-bounty-reference - ist eine Liste von Bug-Bounty-Beschreibungen.
+Awesome-Bugbounty-Writeups - ist eine kuratierte Liste von Bugbounty-Writeups.
+Bug-Bounty-Beschreibungen - Liste der Bug-Bounty-Beschreibungen (2012-2020).
+hackso.me - eine großartige Reise in die Sicherheit.
+
+▪️ Hintertüren/Exploits
+   PHP-Backdoors - eine Sammlung von PHP-Backdoors. Nur zu Bildungs- oder Testzwecken.
+
+▪️ Wortlisten und schwache Passwörter
+   Weakpass - für jede Art von Bruteforce finden Sie Wortlisten oder entfesseln Sie die Kraft aller auf einmal!
+Hashes.org - ist ein kostenloser Online-Hash-Auflösungsdienst mit vielen unvergleichlichen Techniken.
+SecLists - Sammlung mehrerer Arten von Listen, die bei Sicherheitsbewertungen verwendet werden, gesammelt an einem Ort.
+Wahrscheinlichkeits-Wortlisten - sortiert nach Wahrscheinlichkeit, die ursprünglich für die Passwortgenerierung und -prüfung erstellt wurden.
+skullsecurity passwords - Passwortwörterbücher und Repository für durchgesickerte Passwörter.
+Polnisches PREMIUM-Wörterbuch - offizielles Wörterbuch, das vom Team im Forum bezpieka.org erstellt wurde.* 1
+   statistically-likely-usernames - Wortlisten zum Erstellen statistisch wahrscheinlicher Benutzernamenlisten.
+
+▪️ Bounty-Plattformen
+   YesWeHack - Bug-Bounty-Plattform mit Infosec-Jobs.
+Openbugbounty - ermöglicht es jedem Sicherheitsforscher, eine Schwachstelle auf jeder Website zu melden.
+HackerOne - Globale Hacker-Community, um die relevantesten Sicherheitsprobleme aufzudecken.
+BugCrowd - Crowdsourcing-Cybersicherheit für Unternehmen.
+Crowdshield - Crowdsourcing-Sicherheit und Bug-Bounty-Management.
+Synack - Crowdsourcing-Sicherheits- und Bug-Bounty-Programme, Crowd-Security-Intelligence-Plattform und mehr.
+Hacktrophy - Bug-Bounty-Plattform.
+
+▪️ Web-Trainings-Apps (lokale Installation)
+   OWASP-VWAD - umfassende und gut gepflegte Registrierung aller bekannten anfälligen Webanwendungen.
+DVWA - PHP/MySQL-Webanwendung, die verdammt anfällig ist.
+Metasploitable2 - anfällige Webanwendung unter Sicherheitsforschern.
+metasploitable3 - ist eine VM, die von Grund auf mit einer großen Anzahl von Sicherheitslücken erstellt wurde.
+DSVW - ist eine absichtlich anfällige Webanwendung, die in weniger als 100 Codezeilen geschrieben ist.
+OWASP Mutillidae II - kostenlose, quelloffene, absichtlich angreifbare Webanwendung.
+OWASP Juice Shop Project - die fehlerfreieste anfällige Anwendung, die es gibt.
+OWASP Node js Goat Project - OWASP Die 10 größten Sicherheitsrisiken gelten für Web-Apps, die mit Node.js entwickelt wurden.
+juicy-ctf - Capture the Flags und Sicherheitstrainings mit OWASP Juice Shop durchführen.
+SecurityShepherd - Schulungsplattform für die Sicherheit von Web- und mobilen Anwendungen.
+Security Ninjas - Open-Source-Schulungsprogramm für Anwendungssicherheit.
+hackazon - eine moderne, anfällige Web-App.
+dvna - verdammt anfällige NodeJS-Anwendung.
+django-DefectDojo - ist ein Open-Source-Tool zur Korrelation von Anwendungsschwachstellen und zur Orchestrierung von Sicherheitsrisiken.
+Google Gruyère - Exploits und Abwehrmaßnahmen für Webanwendungen.
+Bodhi - ist ein Spielplatz, der sich auf das Erlernen der Ausnutzung von clientseitigen Web-Schwachstellen konzentriert.
+Websploit - ein einzelnes VM-Lab mit dem Ziel, mehrere anfällige Anwendungen in einer Umgebung zu kombinieren.
+vulhub - vorgefertigte anfällige Umgebungen basierend auf docker-compose.
+CloudGoat 2 - das neue & verbesserte "Vulnerable by Design" AWS-Bereitstellungstool.
+secDevLabs - ist ein Labor zum praktischen Erlernen sicherer Webentwicklung.
+CORS-vulnerable-Lab - Beispiel für anfälligen Code und seinen Exploit-Code.
+RootTheBox - ein Spiel der Hacker (CTF Scoreboard & Game Manager).
+KONTRA - Application Security Training (OWASP Top Web & Api).
+
+▪️ Labs (ethische Hacking-Plattformen/Schulungen/CTFs)
+   Offensive Security - echtes leistungsbasiertes Penetrationstest-Training seit über einem Jahrzehnt.
+Hack The Box - Online-Plattform, mit der Sie Ihre Fähigkeiten im Bereich Penetrationstests testen können.
+Hacking-Lab - Online-Plattform für ethisches Hacking, Computernetzwerke und Sicherheitsherausforderungen.
+pwnable.kr - nicht-kommerzielle Kriegsspielseite, die verschiedene PWN-Herausforderungen bietet.
+Pwnable.tw - ist eine Wargame-Site für Hacker, um ihre binären Exploiting-Fähigkeiten zu testen und zu erweitern.
+picoCTF ist ein kostenloses Computersicherheitsspiel, das sich an Schüler der Mittel- und Oberstufe richtet.
+CTFlearn - ist eine Online-Plattform, die ethischen Hackern hilft, ihr Wissen über Cybersicherheit zu erlernen und zu üben.
+ctftime - CTF-Archiv und ein Ort, an dem Sie weitere CTF-bezogene Informationen erhalten können.
+Silesia Security Lab - hochwertige Sicherheitstestdienste.
+Practical Pentest Labs - Pentest-Labor, bringen Sie Ihre Hacking-Fähigkeiten auf die nächste Stufe.
+Root Me - die schnelle, einfache und kostengünstige Möglichkeit, Ihre Hacking-Fähigkeiten zu trainieren.
+rozwal.to - eine großartige Plattform, um Ihre Pentesting-Fähigkeiten zu trainieren.
+TryHackMe - Cyber Security lernen leicht gemacht.
+Hackxor - ist ein realistisches Hacking-Spiel für Webanwendungen, das Spielern aller Fähigkeiten helfen soll, ihre Fähigkeiten zu entwickeln.
+Hacken Sie sich zuerst - es ist voll von fiesen App-Sec-Löchern.
+OverTheWire - kann Ihnen helfen, Sicherheitskonzepte in Form von unterhaltsamen Spielen zu erlernen und zu üben.
+Wizard Labs - ist ein Online-Penetrationstestlabor.
+PentesterLab - bietet anfällige Systeme, die zum Testen und Verstehen von Schwachstellen verwendet werden können.
+RingZer0 - jede Menge Herausforderungen, um deine Hacking-Fähigkeiten zu testen und zu verbessern.
+try2hack - mehrere sicherheitsorientierte Herausforderungen für Ihre Unterhaltung.
+Ubeeri - vorkonfigurierte Laborumgebungen.
+Pentestit - emulieren Sie IT-Infrastrukturen realer Unternehmen für legale Pentests und die Verbesserung der Pentest-Fähigkeiten.
+Microcorruption - Umkehrungsherausforderungen in der Weboberfläche.
+Crackmes - Laden Sie Crackmes herunter, um Ihre Reverse-Engineering-Fähigkeiten zu verbessern.
+DomGoat - DOM XSS-Sicherheitslern- und Übungsplattform.
+Stereotyped Challenges - Verbessern Sie Ihre Web-Hacking-Techniken noch heute!
+Vulnhub - ermöglicht es jedem, praktische Erfahrungen in der digitalen Sicherheit zu sammeln.
+W3Challs - ist eine Trainingsplattform für Penetrationstests, die verschiedene Computerherausforderungen bietet.
+RingZer0 CTF - bietet Ihnen unzählige Herausforderungen, um Ihre Hacking-Fähigkeiten zu testen und zu verbessern.
+Hack.me - eine Plattform, auf der Sie Vulner erstellen, hosten und teilen könnenfähige Web-Apps für Bildungszwecke.
+HackThis! - Entdecken Sie, wie Hacks, Dumps und Verunstaltungen durchgeführt werden und sichern Sie Ihre Website.
+Enigma Group WebApp Training - diese Herausforderungen decken die im OWASP Top 10 Projekt aufgeführten Exploits ab.
+Reverse Engineering Challenges - Herausforderungen, Übungen, Probleme und Aufgaben - nach Level, Typ und mehr.
+0x00sec - die Heimat des Hackers - Malware, Reverse Engineering und Informatik.
+We Chall - es gibt viele verschiedene Herausforderungstypen.
+Hacker Gateway - ist die Anlaufstelle für Hacker, die ihre Fähigkeiten testen möchten.
+Hacker101 - ist ein kostenloser Kurs für Websicherheit.
+contained.af - ein dummes Spiel, um etwas über Container, Fähigkeiten und Systemaufrufe zu lernen.
+flAWS Challenge! - eine Reihe von Levels, in denen Sie häufige Fehler und Fallstricke bei der Verwendung von AWS kennenlernen.
+CyberSec WTF - bietet Web-Hacking-Herausforderungen, die aus Kopfgeldbeschreibungen abgeleitet werden.
+CTF-Herausforderung - CTF-Web-App-Herausforderungen.
+gCTF - die meisten Herausforderungen, die im Google CTF 2017 verwendet werden.
+Hack This Site - ist ein kostenloses, sicheres und legales Trainingsgelände für Hacker.
+Attack & Defense - ist ein browserbasiertes Cloud-Labor.
+Cryptohack - eine unterhaltsame Plattform zum Erlernen moderner Kryptographie.
+Cryptopals - die Krypto-Herausforderungen von Cryptopals.
+
+▪️ CTF platforms
+   fbctf - platform to host Capture the Flag competitions.
+   ctfscoreboard - scoreboard for Capture The Flag competitions.
+
+▪️ Other resources
+   Bugcrowd University - open source education content for the researcher community.
+   OSCPRepo - a list of resources and scripts that I have been gathering in preparation for the OSCP.
+   OWASP Top 10: Real-World Examples - test your web apps with real-world examples (two-part series).
+   phrack.org - an awesome collection of articles from several respected hackers and other thinkers.
+   Practical-Ethical-Hacking-Resources - compilation of resources from TCM's Udemy Course.
+Your daily knowledge and news  [TOC]
+
+▪️ RSS Readers
+   Feedly - organisieren, lesen und teilen Sie, was Ihnen wichtig ist.
+Inoreader - ähnlich wie Feedly mit einer Unterstützung zum Filtern dessen, was Sie von RSS abrufen.
+
+▪️ IRC-Kanäle
+   #hackerspaces - Hackerspace-IRC-Kanäle.
+
+▪️ Sicherheit
+   The Hacker News - führende Nachrichtenquelle, die sich der Förderung des Bewusstseins für Sicherheitsexperten und Hacker verschrieben hat.
+Neueste Hacking-Nachrichten - bietet die neuesten Hacking-Nachrichten, Exploits und Schwachstellen für ethische Hacker.
+Security Newsletter - Sicherheitsnachrichten als wöchentliche Zusammenfassung (E-Mail-Benachrichtigungen).
+Google Online Security Blog - die neuesten Nachrichten und Erkenntnisse von Google zum Thema Sicherheit im Internet.
+Qualys Blog - Expertenanleitungen und Neuigkeiten zur Netzwerksicherheit.
+DARKReading - Vernetzung der Information Security Community.
+Darknet - neueste Hacking-Tools, Hacker-News, Best Practices für Cybersicherheit, ethisches Hacking und Pen-Tests.
+publiclyRevealed - Public Disclosure Watcher, der Sie über die kürzlich aufgedeckten Fehler auf dem Laufenden hält.
+Reddit - Hacking - ein Subreddit, der sich dem Hacken und Hackern widmet.
+Packet Storm - Informationssicherheitsdienste, Nachrichten, Dateien, Tools, Exploits, Advisories und Whitepapers.
+Sekurak - über Sicherheit, Penetrationstests, Schwachstellen und viele andere (PL/EN).
+nf.sec - grundlegende Aspekte und Mechanismen der Linux-Betriebssystemsicherheit (PL).
+
+▪️ Sonstiges/All-in-one
+   Changelog - ist eine Community von Hackern; News & Podcasts für Entwickler und Hacker.
+Andere Spickzettel [Inhaltsverzeichnis]
+Erstellen Sie Ihre eigenen DNS-Server
+ 
+  Unbound DNS Tutorial - ein validierender, rekursiver und zwischengespeicherter DNS-Server.
+Knot Resolver auf Fedora - So erhalten Sie eine schnellere und sicherere DNS-Auflösung mit Knot Resolver auf Fedora.
+DNS-over-HTTPS - Tutorial zum Einrichten Ihres eigenen DNS-over-HTTPS (DoH)-Servers.
+dns-over-https - eine Cartoon-Einführung in DNS über HTTPS.
+DNS-over-TLS - Richten Sie nach Ihrem DoH-Server Ihren DNS-over-TLS (DoT)-Server ein.
+DNS-Server - wie (und warum) ich meine eigenen DNS-Server betreibe.
+Erstellen Sie Ihre eigene Zertifizierungsstelle
+ 
+  OpenSSL-Zertifizierungsstelle - Erstellen Sie Ihre eigene Zertifizierungsstelle (CA) mit den OpenSSL-Tools.
+step-ca Zertifizierungsstelle - Erstellen Sie Ihre eigene Zertifizierungsstelle (CA) mit Open Source step-ca.
+Erstellen Sie Ihr eigenes System/Ihre eigene virtuelle Maschine
+ 
+  os-tutorial - wie man ein Betriebssystem von Grund auf neu erstellt.
+Schreiben Sie Ihre eigene virtuelle Maschine - wie Sie Ihre eigene virtuelle Maschine (VM) schreiben.
+x86-Bare-Metal-Beispiele - Dutzende von minimalen Betriebssystemen zum Erlernen der x86-Systemprogrammierung.
+simple-computer - die Scott-CPU aus "But How Do It Know?" von J. Clark Scott.
+littleosbook - das kleine Buch über die Entwicklung von Betriebssystemen.
+DNS-Serverliste (Datenschutz)
+IP	URL (Englisch)
+84.200.69.80	dns.watch
+94.247.43.254	opennic.org
+64.6.64.6	verisign.com
+89.233.43.71	censurfridns.dk
+1.1.1.1	cloudflare.com
+94.130.110.185	dnsprivacy.at
+TOP Browser-Erweiterungen
+Name der Erweiterung	Beschreibung
+IPvFoo	Zeigen Sie die Server-IP-Adresse und HTTPS-Informationen für alle Seitenelemente an.
+FoxyProxy	Vereinfacht die Konfiguration von Browsern für den Zugriff auf Proxy-Server.
+HTTPS Everywhere	Verwenden Sie die HTTPS-Sicherheit automatisch auf vielen Websites.
+uMatrix	Point & Click, um jede Art von Anfragen Ihres Browsers zu verbieten/zulassen.
+uBlock Origin	Ein effizienter Blocker: Schont den Arbeitsspeicher und den CPU-Platzbedarf.
+Session Buddy	Verwalten Sie Browser-Tabs und Lesezeichen mit Leichtigkeit.
+SuperSorter	Sortieren Sie Lesezeichen rekursiv, löschen Sie Duplikate, führen Sie Ordner zusammen und vieles mehr.
+Clear Cache	Löschen Sie Ihren Cache und Ihre Browserdaten.
+d3coder	Kodierungs-/Dekodierungs-Plugin für verschiedene Arten der Kodierung.
+Web Developer	Fügt eine Symbolleistenschaltfläche mit verschiedenen Webentwicklertools hinzu.
+ThreatPinch Lookup	Fügen Sie Threat Intelligence-Hover-Tooltips hinzu.
+TOP Burp Extensions
+Name der Erweiterung	Beschreibung
+Active Scan++	Erweitert die aktiven und passiven Scanfunktionen von Burp.
+Autorize	Erkennt automatisch die Durchsetzung von Autorisierungen.
+AuthMatrix	Ein einfaches Matrixraster zum Definieren der gewünschten Zugriffsrechte.
+Logger++	Protokolliert Anfragen und Antworten für alle Burp-Tools in einer sortierbaren Tabelle.
+Bypass WAF	Fügt Header hinzu, die zum Umgehen einiger WAF-Geräte nützlich sind.
+JSON Beautifier	Verschönert JSON-Inhalte im HTTP-Nachrichten-Viewer.
+JSON Web Tokens	Ermöglicht Burp das Decodieren und Bearbeiten von JSON-Webtoken.
+CSP Auditor	Zeigt CSP-Header für Antworten an und meldet passiv CSP-Schwachstellen.
+CSP-Bypass	Sucht passiv nach CSP-Headern, die bekannte Umgehungen enthalten.
+Hackvertor	Konvertiert Daten mithilfe einer Tag-basierten Konfiguration, um verschiedene Codierungen anzuwenden.
+HTML5 Auditor	Scannt nach riskanten HTML5-Funktionen.
+Software Vulnerability Scanner	Schwachstellen-Scanner basierend auf vulners.com Audit-API.
+Turbo Intruder	Ist ein mächtiges Bruteforce-Werkzeug.
+Upload Scanner	Laden Sie eine Reihe verschiedener Dateitypen hoch, die mit unterschiedlichen Formen von Nutzlast versehen sind.
+Hacken Sie die Adressleiste von Mozilla Firefox
+In der Adressleiste von Firefox können Sie die Ergebnisse einschränken, indem Sie Sonderzeichen vor oder nach Ihrem Begriff eingeben:
+
+^ - für Übereinstimmungen in Ihrem Browserverlauf
+* - für Übereinstimmungen in Ihren Lesezeichen.
+% - für Übereinstimmungen in Ihren derzeit geöffneten Tabs.
+# - für Übereinstimmungen in Seitentiteln.
+@ - für Übereinstimmungen in Webadressen.
+Versteckte Chrome-Befehle
+chrome://chrome-urls - Liste aller Befehle
+chrome://flags - Experimente und Entwicklungsfunktionen aktivieren
+chrome://interstitials - Fehler und Warnungen
+chrome://net-internals - Netzwerkinterna (Ereignisse, DNS, Cache)
+chrome://network-errors - Netzwerkfehler
+chrome://net-export - Beginnen Sie mit der Protokollierung zukünftiger Netzwerkaktivitäten in einer Datei
+chrome://safe-browsing - Sichere Browsing-Optionen
+chrome://user-actions - alle Benutzeraktionen aufzeichnen
+chrome://restart - Chrome neu starten
+chrome://dino - ERR_INTERNET_DISCONNECTED...
+cache:<website-address> - Zeigen Sie die zwischengespeicherte Version der Webseite an
+Umgehen von WAFs durch Kürzen der IP-Adresse (durch 0xInfection)
+IP-Adressen können gekürzt werden, indem die Nullen weggelassen werden:
+
+http://1.0.0.1 → http://1.1
+http://127.0.0.1 → http://127.1
+http://192.168.0.1 → http://192.168.1
+
+http://0xC0A80001 or http://3232235521 → 192.168.0.1
+http://192.168.257 → 192.168.1.1
+http://192.168.516 → 192.168.2.4
+Dadurch werden WAF-Filter für SSRF, Open-Redirect usw. umgangen, bei denen jede IP als Eingabe auf die schwarze Liste gesetzt wird.
+
+Weitere Informationen finden Sie unter So verdecken Sie URL- und magische IP-Adressverknüpfungen.
+
+Hashing, Verschlüsselung und Codierung (von Michal Špaček)
+Hackend
+
+Klartext ➡️ Hash
+Hash ⛔ Klartext
+
+Symmetrische Verschlüsselung
+
+Klartext ➡️ 🔑 ➡️ Chiffretext
+Klartext ⬅️ 🔑 ⬅️ Chiffretext
+(:key: Gemeinsamer Schlüssel)
+
+Asymmetrische Verschlüsselung
+
+Klartext ➡️ 🔑 ➡️ Chiffretext
+Klartext ⬅️ 〽️ ⬅️ Chiffretext
+(:key: öffentlicher Schlüssel, :p art_alternation_mark: privater Schlüssel)
+
+Codierung
+
+Text ➡️ codiert
+Text ⬅️ codiert
+
+Shell Einzeiler [Inhaltsverzeichnis]
+Inhaltsverzeichnis
+Terminal
+busybox
+montieren
+Fixiereinheit
+LSOF
+PS
+Nach oben
+vmstat
+IOSTAT
+strace
+töten
+finden
+Unterschiede
+vimdiff
+Schwanz
+CPULIMIT
+pwdx
+Tr
+chmod
+Wer
+letzte
+Bildschirm
+Skript
+du
+inotifywait
+openssl
+Sicheres Löschen
+Dd
+gpg
+System-Sonstiges
+Locke
+httpie
+ssh
+linux-dev
+tcpdump
+tcpick
+ngrep
+HPING3
+nmap
+NETCAT
+Socat
+p0f
+gnutls-cli
+netstat
+rsync
+Gastgeber
+graben
+certbot
+Netzwerk-Sonstiges
+Einguss
+Awk
+Sed
+Grep
+Perl
+Werkzeug: Terminal
+Shell ohne Ausgang neu laden
+exec $SHELL -l
+Schließen Sie die Shell und halten Sie alle Unterprozesse am Laufen
+disown -a && exit
+Beenden ohne Speichern des Shell-Verlaufs
+kill -9 $$
+unset HISTFILE && exit
+Ausführen einer Verzweigungsbedingung
+true && echo success
+false || echo failed
+Leiten Sie stdout und stderr an separate Befehle
+some_command > >(/bin/cmd_for_stdout) 2> >(/bin/cmd_for_stderr)
+Leiten Sie stdout und stderr jeweils in separate Dateien um und drucken Sie beide auf dem Bildschirm
+(some_command 2>&1 1>&3 | tee errorlog ) 3>&1 1>&2 | tee stdoutlog
+Liste der Befehle, die Sie am häufigsten verwenden
+history | \
+awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | \
+grep -v "./" | \
+column -c3 -s " " -t | \
+sort -nr | nl |  head -n 20
+Sterilisieren Sie den Bash-Verlauf
+function sterile() {
+
+  history | awk '$2 != "history" { $1=""; print $0 }' | egrep -vi "\
+curl\b+.*(-E|--cert)\b+.*\b*|\
+curl\b+.*--pass\b+.*\b*|\
+curl\b+.*(-U|--proxy-user).*:.*\b*|\
+curl\b+.*(-u|--user).*:.*\b*
+.*(-H|--header).*(token|auth.*)\b+.*|\
+wget\b+.*--.*password\b+.*\b*|\
+http.?://.+:.+@.*\
+" > $HOME/histbuff; history -r $HOME/histbuff;
+
+}
+
+export PROMPT_COMMAND="sterile"
+Siehe auch: Ein naives Dienstprogramm zur Zensur von Anmeldeinformationen in der Befehlshistorie.
+
+Schnelles Sichern einer Datei
+cp filename{,.orig}
+Leeren einer Datei (auf 0 abschneiden)
+>filename
+Löschen Sie alle Dateien in einem Ordner, die nicht mit einer bestimmten Dateierweiterung übereinstimmen
+rm !(*.foo|*.bar|*.baz)
+Übergeben Sie eine mehrzeilige Zeichenfolge an eine Datei
+# cat  >filename ... - overwrite the file
+# cat >>filename ... - append to a file
+cat > filename << __EOF__
+data data data
+__EOF__
+Bearbeiten einer Datei auf einem Remote-Host mit vim
+vim scp://user@host//etc/fstab
+Erstellen Sie ein Verzeichnis und wechseln Sie gleichzeitig in dieses
+mkd() { mkdir -p "$@" && cd "$@"; }
+Konvertieren Sie Dateien in Großbuchstaben
+rename 'y/A-Z/a-z/' *
+Drucken Sie eine Zeichenreihe über das Terminal
+printf "%`tput cols`s" | tr ' ' '#'
+Shell-Historie ohne Zeilennummern anzeigen
+history | cut -c 8-
+fc -l -n 1 | sed 's/^\s*//'
+Ausführen von Befehlen nach dem Beenden der Sitzung
+cat > /etc/profile << __EOF__
+_after_logout() {
+
+  username=$(whoami)
+
+  for _pid in $(ps afx | grep sshd | grep "$username" | awk '{print $1}') ; do
+
+    kill -9 $_pid
+
+  done
+
+}
+trap _after_logout EXIT
+__EOF__
+Generieren einer Zahlenfolge
+for ((i=1; i<=10; i+=2)) ; do echo $i ; done
+# alternative: seq 1 2 10
+
+for ((i=5; i<=10; ++i)) ; do printf '%02d\n' $i ; done
+# alternative: seq -w 5 10
+
+for i in {1..10} ; do echo $i ; done
+Einfaches Bash-Filewatching
+unset MAIL; export MAILCHECK=1; export MAILPATH='$FILE_TO_WATCH?$MESSAGE'
+Werkzeug: busybox
+Statischer HTTP-Webserver
+busybox httpd -p $PORT -h $HOME [-c httpd.conf]
+Werkzeug: Halterung
+Temporäre RAM-Partition einbinden
+mount -t tmpfs tmpfs /mnt -o size=64M
+-t - Typ des Dateisystems
+-o - Mount-Optionen
+Ein Dateisystem als Lese-/Schreibzugriff neu einhängen
+mount -o remount,rw /
+Werkzeug: Fixiereinheit
+Zeigen Sie, welche Prozesse die Dateien/Verzeichnisse verwenden
+fuser /var/log/daemon.log
+fuser -v /home/supervisor
+Beendet einen Prozess, der eine Datei sperrt
+fuser -ki filename
+-i - interaktive Option
+Beendet einen Prozess, der eine Datei mit einem bestimmten Signal sperrt
+fuser -k -HUP filename
+--list-signals - Liste der verfügbaren Signalnamen
+Zeigen Sie, welche PID auf einem bestimmten Port lauscht
+fuser -v 53/udp
+Alle Prozesse anzeigen, die das benannte Dateisystem oder Blockgerät verwenden
+fuser -mv /var/www
+Werkzeug: lsof
+Zeigen Sie Prozesse an, die derzeit eine Internetverbindung verwenden
+lsof -P -i -n
+Prozess anzeigen, der eine bestimmte Portnummer verwendet
+lsof -i tcp:443
+Listet alle Listening-Ports zusammen mit der PID des zugehörigen Prozesses auf
+lsof -Pan -i tcp -i udp
+Auflisten aller offenen Ports und der zugehörigen ausführbaren Dateien
+lsof -i -P | grep -i "listen"
+Alle offenen Ports anzeigen
+lsof -Pnl -i
+Offene Ports anzeigen (LISTEN)
+lsof -Pni4 | grep LISTEN | column -t
+Listet alle Dateien auf, die mit einem bestimmten Befehl geöffnet wurden
+lsof -c "process"
+Anzeigen der Benutzeraktivität pro Verzeichnis
+lsof -u username -a +D /etc
+Zeige die 10 größten geöffneten Dateien
+lsof / | \
+awk '{ if($7 > 1048576) print $7/1048576 "MB" " " $9 " " $1 }' | \
+sort -n -u | tail | column -t
+Aktuelles Arbeitsverzeichnis eines Prozesses anzeigen
+lsof -p <PID> | grep cwd
+Werkzeug: ps
+Anzeigen eines 4-fach scrollbaren Prozessbaums mit allen Details
+ps awwfux | less -S
+Prozesse pro Benutzerzähler
+ps hax -o user | sort | uniq -c | sort -r
+Alle Prozesse nach Namen mit Hauptkopf anzeigen
+ps -lfC nginx
+Werkzeug: finden
+Suchen von Dateien, die in den letzten 60 Minuten auf Ihrem System geändert wurden
+find / -mmin 60 -type f
+Finden Sie alle Dateien, die größer als 20 MB sind
+find / -type f -size +20M
+Doppelte Dateien finden (basierend auf MD5-Hash)
+find -type f -exec md5sum '{}' ';' | sort | uniq --all-repeated=separate -w 33
+Berechtigung nur für Dateien ändern
+cd /var/www/site && find . -type f -exec chmod 766 {} \;
+cd /var/www/site && find . -type f -exec chmod 664 {} +
+Berechtigung nur für Verzeichnisse ändern
+cd /var/www/site && find . -type d -exec chmod g+x {} \;
+cd /var/www/site && find . -type d -exec chmod g+rwx {} +
+Suchen von Dateien und Verzeichnissen für bestimmte Benutzer/Gruppen
+# User:
+find . -user <username> -print
+find /etc -type f -user <username> -name "*.conf"
+
+# Group:
+find /opt -group <group>
+find /etc -type f -group <group> -iname "*.conf"
+Finden Sie Dateien und Verzeichnisse für alle ohne bestimmten Benutzer/eine bestimmte Gruppe
+# User:
+find . \! -user <username> -print
+
+# Group:
+find . \! -group <group>
+Suchen nach Dateien/Verzeichnissen, die nur bestimmte Berechtigungen haben
+# User
+find . -user <username> -perm -u+rw # -rw-r--r--
+find /home -user $(whoami) -perm 777 # -rwxrwxrwx
+
+# Group:
+find /home -type d -group <group> -perm 755 # -rwxr-xr-x
+Löschen älterer Dateien als 60 Tage
+find . -type f -mtime +60 -delete
+Rekursiv alle leeren Unterverzeichnisse aus einem Verzeichnis entfernen
+find . -depth  -type d  -empty -exec rmdir {} \;
+So finden Sie alle Hardlinks zu einer Datei
+find </path/to/dir> -xdev -samefile filename
+Rekursiv die zuletzt geänderten Dateien finden
+find . -type f -exec stat --format '%Y :%y %n' "{}" \; | sort -nr | cut -d: -f2- | head
+Rekursives Suchen/Ersetzen eines Strings mit sed
+find . -not -path '*/\.git*' -type f -print0 | xargs -0 sed -i 's/foo/bar/g'
+Rekursives Suchen/Ersetzen eines Strings in Verzeichnissen und Dateinamen
+find . -depth -name '*test*' -execdir bash -c 'mv -v "$1" "${1//foo/bar}"' _ {} \;
+Rekursives Suchen von ausführbaren Suid-Dateien
+find / \( -perm -4000 -o -perm -2000 \) -type f -exec ls -la {} \;
+Werkzeug: oben
+Verwenden Sie top, um nur alle Prozesse mit der spezifischen Zeichenfolge zu überwachen
+top -p $(pgrep -d , <str>)
+<str> - Prozess, der eine Zeichenfolge enthält (z. B. nginx, worker)
+Werkzeug: vmstat
+Aktuelle Systemauslastung anzeigen (Felder in Kilobyte)
+vmstat 2 20 -t -w
+2 - Anzahl der Male mit einem definierten Zeitintervall (Verzögerung)
+20 - jede Ausführung des Befehls (Anzahl)
+-t - Zeitstempel anzeigen
+-w - breite Leistung
+-S M - Ausgabe der Felder in Megabyte statt Kilobyte
+Die aktuelle Systemauslastung wird alle 5 Sekunden aktualisiert
+vmstat 5 -w
+Zeigen Sie einen Bericht mit einer Zusammenfassung der Datenträgervorgänge an
+vmstat -D
+Anzeige von Ereigniszählern und Speicherstatistiken
+vmstat -s
+Bericht über Kernel-Objekte anzeigen, die im Slab-Layer-Cache gespeichert sind
+vmstat -m
+Werkzeug: iostat
+Zeigen Sie Informationen über die CPU-Auslastung und E/A-Statistiken für alle Partitionen an
+iostat 2 10 -t -m
+2 - Anzahl der Male mit einem definierten Zeitintervall (Verzögerung)
+10 - jede Ausführung des Befehls (Anzahl)
+-t - Zeitstempel anzeigen
+-m - Felder in Megabyte ( - in Kilobyte, Standard)-k
+Nur Informationen über die CPU-Auslastung anzeigen
+iostat 2 10 -t -m -c
+Nur Informationen über die Festplattenauslastung anzeigen
+iostat 2 10 -t -m -d
+Nur Informationen über die LVM-Auslastung anzeigen
+iostat -N
+Werkzeug: strace
+Nachverfolgen mit untergeordneten Prozessen
+# 1)
+strace -f -p $(pidof glusterfsd)
+
+# 2)
+strace -f $(pidof php-fpm | sed 's/\([0-9]*\)/\-p \1/g')
+Prozess mit 30-Sekunden-Limit verfolgen
+timeout 30 strace $(< /var/run/zabbix/zabbix_agentd.pid)
+Verfolgen von Prozessen und Umleiten der Ausgabe in eine Datei
+ps auxw | grep '[a]pache' | awk '{print " -p " $2}' | \
+xargs strace -o /tmp/strace-apache-proc.out
+Verfolgen Sie die in jedem Systemaufruf verbrachte Druckzeit und begrenzen Sie die Länge der Druckzeichenfolgen
+ps auxw | grep '[i]init_policy' | awk '{print " -p " $2}' | \
+xargs strace -f -e trace=network -T -s 10000
+Verfolgen Sie die offene Anforderung eines Netzwerkports
+strace -f -e trace=bind nc -l 80
+Verfolgen Sie die offene Anfrage eines Netzwerkports (TCP/UDP anzeigen)
+strace -f -e trace=network nc -lu 80
+Werkzeug: Töten
+Beenden eines Prozesses, der auf dem Port ausgeführt wird
+kill -9 $(lsof -i :<port> | awk '{l=$2} END {print l}')
+Werkzeug: diff
+Vergleichen Sie zwei Verzeichnisbäume
+diff <(cd directory1 && find | sort) <(cd directory2 && find | sort)
+Vergleichen Sie die Ausgabe zweier Befehle
+diff <(cat /etc/passwd) <(cut -f2 /etc/passwd)
+Werkzeug: vimdiff
+Heben Sie die genauen Unterschiede hervor, basierend auf Zeichen und Wörtern
+vimdiff file1 file2
+Vergleichen Sie zwei JSON-Dateien
+vimdiff <(jq -S . A.json) <(jq -S . B.json)
+Vergleichen Hex-Dump
+d(){ vimdiff <(f $1) <(f $2);};f(){ hexdump -C $1 | cut -d' ' -f3- | tr -s ' ';}; d ~/bin1 ~/bin2
+diffchar
+Diffchar speichern @ ~/.vim/plugins
+
+Klicken Sie hier, um zwischen den Diff-Modi zu wechselnF7
+
+Nützliche Befehle:vimdiff
+
+qa So schließen Sie alle Fenster
+:vertical resize 70 So ändern Sie die Fenstergröße
+Fensterbreite einstellen Ctrl+W [N columns]+(Shift+)<\>
+Werkzeug: Schwanz
+Tail -f mit Zeitstempeln annotieren
+tail -f file | while read ; do echo "$(date +%T.%N) $REPLY" ; done
+Analysieren Sie ein Apache-Zugriffsprotokoll für die gängigsten IP-Adressen
+tail -10000 access_log | awk '{print $1}' | sort | uniq -c | sort -n | tail
+Webserver-Log analysieren und nur 5xx-HTTP-Codes anzeigen
+tail -n 100 -f /path/to/logfile | grep "HTTP/[1-2].[0-1]\" [5]"
+Werkzeug: Teer
+Systemsicherung mit Ausschluss bestimmter Verzeichnisse
+cd /
+tar -czvpf /mnt/system$(date +%d%m%Y%s).tgz --directory=/ \
+--exclude=proc/* --exclude=sys/* --exclude=dev/* --exclude=mnt/* .
+Systemsicherung mit Ausschluss bestimmter Verzeichnisse (pigz)
+cd /
+tar cvpf /backup/snapshot-$(date +%d%m%Y%s).tgz --directory=/ \
+--exclude=proc/* --exclude=sys/* --exclude=dev/* \
+--exclude=mnt/* --exclude=tmp/* --use-compress-program=pigz .
+Werkzeug: dump
+Systemsicherung in Datei
+dump -y -u -f /backup/system$(date +%d%m%Y%s).lzo /
+System aus lzo-Datei wiederherstellen
+cd /
+restore -rf /backup/system$(date +%d%m%Y%s).lzo
+Werkzeug: cpulimit
+Begrenzen der CPU-Auslastung eines Prozesses
+cpulimit -p pid -l 50
+Werkzeug: pwdx
+Aktuelles Arbeitsverzeichnis eines Prozesses anzeigen
+pwdx <pid>
+Werkzeug: Taskset
+Starten eines Befehls auf nur einem CPU-Kern
+taskset -c 0 <command>
+Werkzeug: tr
+Verzeichnisse im PATH anzeigen, eines pro Zeile
+tr : '\n' <<<$PATH
+Werkzeug: chmod
+Entfernen Sie das ausführbare Bit aus allen Dateien im aktuellen Verzeichnis
+chmod -R -x+X *
+Berechtigung für /bin/chmod wiederherstellen
+# 1:
+cp /bin/ls chmod.01
+cp /bin/chmod chmod.01
+./chmod.01 700 file
+
+# 2:
+/bin/busybox chmod 0700 /bin/chmod
+
+# 3:
+setfacl --set u::rwx,g::---,o::--- /bin/chmod
+Tool: Wer
+Letzte Neustartzeit ermitteln
+who -b
+Erkennen eines Benutzers sudo-su'd in der aktuellen Shell
+[[ $(who -m | awk '{ print $1 }') == $(whoami) ]] || echo "You are su-ed to $(whoami)"
+Werkzeug: zuletzt
+War das letzte Reboot eine Panik?
+(last -x -f $(ls -1t /var/log/wtmp* | head -2 | tail -1); last -x -f /var/log/wtmp) | \
+grep -A1 reboot | head -2 | grep -q shutdown && echo "Expected reboot" || echo "Panic reboot"
+Werkzeug: Bildschirm
+Startbildschirm im getrennten Modus
+screen -d -m <command>
+An eine vorhandene Bildschirmsitzung anhängen
+screen -r -d <pid>
+Werkzeug: Skript
+Aufzeichnen und Wiedergeben von Terminalsitzungen
+### Record session
+# 1)
+script -t 2>~/session.time -a ~/session.log
+
+# 2)
+script --timing=session.time session.log
+
+### Replay session
+scriptreplay --timing=session.time session.log
+Tool: du
+Show 20 biggest directories with 'K M G'
+du | \
+sort -r -n | \
+awk '{split("K M G",v); s=1; while($1>1024){$1/=1024; s++} print int($1)" "v[s]"\t"$2}' | \
+head -n 20
+Werkzeug: inotifywait
+Init-Tool jedes Mal, wenn eine Datei in einem Verzeichnis geändert wird
+while true ; do inotifywait -r -e MODIFY dir/ && ls dir/ ; done;
+Werkzeug: openssl
+Testen der Verbindung zum Remote-Host
+echo | openssl s_client -connect google.com:443 -showcerts
+Testen der Verbindung zum Remote-Host (Debug-Modus)
+echo | openssl s_client -connect google.com:443 -showcerts -tlsextdebug -status
+Testen der Verbindung zum Remote-Host (mit SNI-Unterstützung)
+echo | openssl s_client -showcerts -servername google.com -connect google.com:443
+Testen der Verbindung zum Remote-Host mit einer bestimmten SSL-Version
+openssl s_client -tls1_2 -connect google.com:443
+Testen der Verbindung zum Remote-Host mit einer bestimmten SSL-Verschlüsselung
+openssl s_client -cipher 'AES128-SHA' -connect google.com:443
+0-RTT überprüfen
+_host="example.com"
+
+cat > req.in << __EOF__
+HEAD / HTTP/1.1
+Host: $_host
+Connection: close
+__EOF__
+
+openssl s_client -connect ${_host}:443 -tls1_3 -sess_out session.pem -ign_eof < req.in
+openssl s_client -connect ${_host}:443 -tls1_3 -sess_in session.pem -early_data req.in
+Privaten Schlüssel ohne Passphrase generieren
+# _len: 2048, 4096
+( _fd="private.key" ; _len="2048" ; \
+openssl genrsa -out ${_fd} ${_len} )
+Privaten Schlüssel mit Passphrase generieren
+# _ciph: aes128, aes256
+# _len: 2048, 4096
+( _ciph="aes128" ; _fd="private.key" ; _len="2048" ; \
+openssl genrsa -${_ciph} -out ${_fd} ${_len} )
+Entfernen Sie die Passphrase aus dem privaten Schlüssel
+( _fd="private.key" ; _fd_unp="private_unp.key" ; \
+openssl rsa -in ${_fd} -out ${_fd_unp} )
+Verschlüsseln Sie einen vorhandenen privaten Schlüssel mit einer Passphrase
+# _ciph: aes128, aes256
+( _ciph="aes128" ; _fd="private.key" ; _fd_pass="private_pass.key" ; \
+openssl rsa -${_ciph} -in ${_fd} -out ${_fd_pass}
+Privaten Schlüssel prüfen
+( _fd="private.key" ; \
+openssl rsa -check -in ${_fd} )
+Abrufen des öffentlichen Schlüssels aus dem privaten Schlüssel
+( _fd="private.key" ; _fd_pub="public.key" ; \
+openssl rsa -pubout -in ${_fd} -out ${_fd_pub} )
+Generieren von privatem Schlüssel und CSR
+( _fd="private.key" ; _fd_csr="request.csr" ; _len="2048" ; \
+openssl req -out ${_fd_csr} -new -newkey rsa:${_len} -nodes -keyout ${_fd} )
+CSR generieren
+( _fd="private.key" ; _fd_csr="request.csr" ; \
+openssl req -out ${_fd_csr} -new -key ${_fd} )
+CSR generieren (Metadaten aus vorhandenem Zertifikat)
+Wo ist der vorhandene private Schlüssel? Wie Sie sehen können, generieren Sie diese CSR nicht aus Ihrem Zertifikat (öffentlicher Schlüssel). Außerdem generieren Sie nicht die "gleiche" CSR, sondern nur eine neue, um ein neues Zertifikat anzufordern.private.key
+
+( _fd="private.key" ; _fd_csr="request.csr" ; _fd_crt="cert.crt" ; \
+openssl x509 -x509toreq -in ${_fd_crt} -out ${_fd_csr} -signkey ${_fd} )
+CSR mit dem Parameter -config generieren
+( _fd="private.key" ; _fd_csr="request.csr" ; \
+openssl req -new -sha256 -key ${_fd} -out ${_fd_csr} \
+-config <(
+cat << __EOF__
+[req]
+default_bits        = 2048
+default_md          = sha256
+prompt              = no
+distinguished_name  = dn
+req_extensions      = req_ext
+
+[ dn ]
+C   = "<two-letter ISO abbreviation for your country>"
+ST  = "<state or province where your organisation is legally located>"
+L   = "<city where your organisation is legally located>"
+O   = "<legal name of your organisation>"
+OU  = "<section of the organisation>"
+CN  = "<fully qualified domain name>"
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+DNS.1 = <fully qualified domain name>
+DNS.2 = <next domain>
+DNS.3 = <next domain>
+__EOF__
+))
+Andere Werte in :[ dn ]
+
+countryName            = "DE"                     # C=
+stateOrProvinceName    = "Hessen"                 # ST=
+localityName           = "Keller"                 # L=
+postalCode             = "424242"                 # L/postalcode=
+postalAddress          = "Keller"                 # L/postaladdress=
+streetAddress          = "Crater 1621"            # L/street=
+organizationName       = "apfelboymschule"        # O=
+organizationalUnitName = "IT Department"          # OU=
+commonName             = "example.com"            # CN=
+emailAddress           = "webmaster@example.com"  # CN/emailAddress=
+Beispiel für (Sie müssen OpenSSL wahrscheinlich auch über die neuen Felder informieren, die für EV erforderlich sind, indem Sie Folgendes unter hinzufügen):oids[new_oids]
+
+[req]
+...
+oid_section         = new_oids
+
+[ new_oids ]
+postalCode = 2.5.4.17
+streetAddress = 2.5.4.9
+Vollständiges Beispiel:
+
+( _fd="private.key" ; _fd_csr="request.csr" ; \
+openssl req -new -sha256 -key ${_fd} -out ${_fd_csr} \
+-config <(
+cat << __EOF__
+[req]
+default_bits        = 2048
+default_md          = sha256
+prompt              = no
+distinguished_name  = dn
+req_extensions      = req_ext
+oid_section         = new_oids
+
+[ new_oids ]
+serialNumber = 2.5.4.5
+streetAddress = 2.5.4.9
+postalCode = 2.5.4.17
+businessCategory = 2.5.4.15
+
+[ dn ]
+serialNumber=00001111
+businessCategory=Private Organization
+jurisdictionC=DE
+C=DE
+ST=Hessen
+L=Keller
+postalCode=424242
+streetAddress=Crater 1621
+O=AV Company
+OU=IT
+CN=example.com
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+DNS.1 = example.com
+__EOF__
+))
+Weitere Informationen finden Sie in diesen großartigen Erklärungen:
+
+RFC 5280
+Erstellen von Multidomain-Zertifikaten mithilfe von Konfigurationsdateien
+Generieren eines Multi-Domain-Zertifikats mithilfe von Konfigurationsdateien
+Ihr OpenSSL CSR-Befehl ist veraltet
+OpenSSL-Beispiel-Konfigurationsdatei
+Objektbezeichner (OIDs)
+OpenSSL-objects.txt
+Liste der verfügbaren EC-Kurven
+openssl ecparam -list_curves
+Private und öffentliche ECDSA-Schlüssel drucken
+( _fd="private.key" ; \
+openssl ec -in ${_fd} -noout -text )
+
+# For x25519 only extracting public key
+( _fd="private.key" ; _fd_pub="public.key" ; \
+openssl pkey -in ${_fd} -pubout -out ${_fd_pub} )
+Generieren des privaten ECDSA-Schlüssels
+# _curve: prime256v1, secp521r1, secp384r1
+( _fd="private.key" ; _curve="prime256v1" ; \
+openssl ecparam -out ${_fd} -name ${_curve} -genkey )
+
+# _curve: X25519
+( _fd="private.key" ; _curve="x25519" ; \
+openssl genpkey -algorithm ${_curve} -out ${_fd} )
+Generieren von privatem Schlüssel und CSR (ECC)
+# _curve: prime256v1, secp521r1, secp384r1
+( _fd="domain.com.key" ; _fd_csr="domain.com.csr" ; _curve="prime256v1" ; \
+openssl ecparam -out ${_fd} -name ${_curve} -genkey ; \
+openssl req -new -key ${_fd} -out ${_fd_csr} -sha256 )
+Generieren eines selbstsignierten Zertifikats
+# _len: 2048, 4096
+( _fd="domain.key" ; _fd_out="domain.crt" ; _len="2048" ; _days="365" ; \
+openssl req -newkey rsa:${_len} -nodes \
+-keyout ${_fd} -x509 -days ${_days} -out ${_fd_out} )
+Generieren Sie ein selbstsigniertes Zertifikat aus einem vorhandenen privaten Schlüssel
+# _len: 2048, 4096
+( _fd="domain.key" ; _fd_out="domain.crt" ; _days="365" ; \
+openssl req -key ${_fd} -nodes \
+-x509 -days ${_days} -out ${_fd_out} )
+Generieren Sie ein selbstsigniertes Zertifikat aus vorhandenem privatem Schlüssel und CSR
+# _len: 2048, 4096
+( _fd="domain.key" ; _fd_csr="domain.csr" ; _fd_out="domain.crt" ; _days="365" ; \
+openssl x509 -signkey ${_fd} -nodes \
+-in ${_fd_csr} -req -days ${_days} -out ${_fd_out} )
+Generieren Sie öffentliche DH-Parameter
+( _dh_size="2048" ; \
+openssl dhparam -out /etc/nginx/ssl/dhparam_${_dh_size}.pem "$_dh_size" )
+Öffentliche DH-Parameter anzeigen
+openssl pkeyparam -in dhparam.pem -text
+Extrahieren Sie den privaten Schlüssel aus pfx
+( _fd_pfx="cert.pfx" ; _fd_key="key.pem" ; \
+openssl pkcs12 -in ${_fd_pfx} -nocerts -nodes -out ${_fd_key} )
+Extrahieren Sie den privaten Schlüssel und die Zertifikate aus pfx
+( _fd_pfx="cert.pfx" ; _fd_pem="key_certs.pem" ; \
+openssl pkcs12 -in ${_fd_pfx} -nodes -out ${_fd_pem} )
+Extrahieren von Zertifikaten aus p7b
+# PKCS#7 file doesn't include private keys.
+( _fd_p7b="cert.p7b" ; _fd_pem="cert.pem" ; \
+openssl pkcs7 -inform DER -outform PEM -in ${_fd_p7b} -print_certs > ${_fd_pem})
+# or:
+openssl pkcs7 -print_certs -in -in ${_fd_p7b} -out ${_fd_pem})
+Konvertieren Sie DER in PEM
+( _fd_der="cert.crt" ; _fd_pem="cert.pem" ; \
+openssl x509 -in ${_fd_der} -inform der -outform pem -out ${_fd_pem} )
+Konvertieren Sie PEM in DER
+( _fd_der="cert.crt" ; _fd_pem="cert.pem" ; \
+openssl x509 -in ${_fd_pem} -outform der -out ${_fd_der} )
+Überprüfung des privaten Schlüssels
+( _fd="private.key" ; \
+openssl rsa -noout -text -in ${_fd} )
+Überprüfung des öffentlichen Schlüssels
+# 1)
+( _fd="public.key" ; \
+openssl pkey -noout -text -pubin -in ${_fd} )
+
+# 2)
+( _fd="private.key" ; \
+openssl rsa -inform PEM -noout -in ${_fd} &> /dev/null ; \
+if [ $? = 0 ] ; then echo -en "OK\n" ; fi )
+Überprüfung des Zertifikats
+( _fd="certificate.crt" ; # format: pem, cer, crt \
+openssl x509 -noout -text -in ${_fd} )
+Überprüfung der CSR
+( _fd_csr="request.csr" ; \
+openssl req -text -noout -in ${_fd_csr} )
+Überprüfen Sie, ob der private Schlüssel und das Zertifikat übereinstimmen
+(openssl rsa -noout -modulus -in private.key | openssl md5 ; \
+openssl x509 -noout -modulus -in certificate.crt | openssl md5) | uniq
+Überprüfen Sie, ob der private Schlüssel und die CSR übereinstimmen
+(openssl rsa -noout -modulus -in private.key | openssl md5 ; \
+openssl req -noout -modulus -in request.csr | openssl md5) | uniq
+Werkzeug: Sicheres Löschen
+Sicheres Löschen mit Schreddern
+shred -vfuz -n 10 file
+shred --verbose --random-source=/dev/urandom -n 1 /dev/sda
+Sicheres Löschen mit Scrub
+scrub -p dod /dev/sda
+scrub -p dod -r file
+Sicheres Löschen mit Badblocks
+badblocks -s -w -t random -v /dev/sda
+badblocks -c 10240 -s -w -t random -v /dev/sda
+Sicheres Löschen mit secure-delete
+srm -vz /tmp/file
+sfill -vz /local
+sdmem -v
+swapoff /dev/sda5 && sswap -vz /dev/sda5
+Werkzeug: dd
+DD-Status von Zeit zu Zeit anzeigen
+dd <dd_params> status=progress
+watch --interval 5 killall -USR1 dd
+Ausgabe in eine Datei mit dd umleiten
+echo "string" | dd of=filename
+Werkzeug: gpg
+Öffentlichen Schlüssel exportieren
+gpg --export --armor "<username>" > username.pkey
+--export - Exportieren Sie alle Schlüssel aus allen Schlüsselbunden oder einem bestimmten Schlüssel
+-a|--armor - ASCII-gepanzerte Ausgabe erstellen
+Datei verschlüsseln
+gpg -e -r "<username>" dump.sql
+-e|--encrypt - Daten verschlüsseln
+-r|--recipient - Verschlüsseln für bestimmte
+Datei entschlüsseln
+gpg -o dump.sql -d dump.sql.gpg
+-o|--output - Verwendung als Ausgabedatei
+-d|--decrypt - Daten entschlüsseln (Standard)
+Empfänger suchen
+gpg --keyserver hkp://keyserver.ubuntu.com --search-keys "<username>"
+--keyserver - Bestimmten Schlüsselserver festlegen
+--search-keys - Suche nach Schlüsseln auf einem Schlüsselserver
+Alle Pakete in einer verschlüsselten Datei auflisten
+gpg --batch --list-packets archive.gpg
+gpg2 --batch --list-packets archive.gpg
+Werkzeug: System-Sonstiges
+System von init neu starten
+exec /sbin/init 6
+Init-System aus dem Einzelbenutzermodus
+exec /sbin/init
+Aktuelles Arbeitsverzeichnis eines Prozesses anzeigen
+readlink -f /proc/<PID>/cwd
+Aktuellen Pfadnamen des ausgeführten Befehls anzeigen
+readlink -f /proc/<PID>/exe
+Werkzeug: curl
+curl -Iks https://www.google.com
+-I - Nur Antwort-Header anzeigen
+-k - Unsichere Verbindung bei Verwendung von SSL
+-s - Silent-Modus (kein Displaykörper)
+curl -Iks --location -X GET -A "x-agent" https://www.google.com
+--location - Weiterleitungen folgen
+-X - set-Methode
+-A - User-Agent setzen
+curl -Iks --location -X GET -A "x-agent" --proxy http://127.0.0.1:16379 https://www.google.com
+--proxy [socks5://|http://] - Proxyserver setzen
+curl -o file.pdf -C - https://example.com/Aiju2goo0Ja2.pdf
+-o - Ausgabe in Datei schreiben
+-C - Setzen Sie die Übertragung fort
+Finden Sie Ihre externe IP-Adresse (externe Dienste)
+curl ipinfo.io
+curl ipinfo.io/ip
+curl icanhazip.com
+curl ifconfig.me/ip ; echo
+URL-Anfrage wiederholen
+# URL sequence substitution with a dummy query string:
+curl -ks https://example.com/?[1-20]
+
+# With shell 'for' loop:
+for i in {1..20} ; do curl -ks https://example.com/ ; done
+DNS- und HTTP-Trace mit Headern für bestimmte Domains prüfen
+### Set domains and external dns servers.
+_domain_list=(google.com) ; _dns_list=("8.8.8.8" "1.1.1.1")
+
+for _domain in "${_domain_list[@]}" ; do
+
+  printf '=%.0s' {1..48}
+
+  echo
+
+  printf "[\\e[1;32m+\\e[m] resolve: %s\\n" "$_domain"
+
+  for _dns in "${_dns_list[@]}" ; do
+
+    # Resolve domain.
+    host "${_domain}" "${_dns}"
+
+    echo
+
+  done
+
+  for _proto in http https ; do
+
+    printf "[\\e[1;32m+\\e[m] trace + headers: %s://%s\\n" "$_proto" "$_domain"
+
+    # Get trace and http headers.
+    curl -Iks -A "x-agent" --location "${_proto}://${_domain}"
+
+    echo
+
+  done
+
+done
+
+unset _domain_list _dns_list
+Werkzeug: httpie
+http -p Hh https://www.google.com
+-p - Drucken von Anforderungs- und Antwortheadern
+H - Header anfordern
+B - Anforderungstext
+h - Antwort-Header
+b - Antwortkörper
+http -p Hh https://www.google.com --follow --verify no
+-F, --follow - Weiterleitungen folgen
+--verify no - SSL-Überprüfung überspringen
+http -p Hh https://www.google.com --follow --verify no \
+--proxy http:http://127.0.0.1:16379
+--proxy [http:] - Proxyserver setzen
+Werkzeug: ssh
+Escape-Sequenz
+# Supported escape sequences:
+~.  - terminate connection (and any multiplexed sessions)
+~B  - send a BREAK to the remote system
+~C  - open a command line
+~R  - Request rekey (SSH protocol 2 only)
+~^Z - suspend ssh
+~#  - list forwarded connections
+~&  - background ssh (when waiting for connections to terminate)
+~?  - this message
+~~  - send the escape character by typing it twice
+Vergleichen einer Remotedatei mit einer lokalen Datei
+ssh user@host cat /path/to/remotefile | diff /path/to/localfile -
+SSH-Verbindung über Host in der Mitte
+ssh -t reachable_host ssh unreachable_host
+Führen Sie den Befehl über SSH auf dem Remote-Host aus
+cat > cmd.txt << __EOF__
+cat /etc/hosts
+__EOF__
+
+ssh host -l user $(<cmd.txt)
+Abrufen des öffentlichen Schlüssels aus dem privaten Schlüssel
+ssh-keygen -y -f ~/.ssh/id_rsa
+Holen Sie sich alle Fingerabdrücke
+ssh-keygen -l -f .ssh/known_hosts
+SSH-Authentifizierung mit Benutzerpasswort
+ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no user@remote_host
+SSH-Authentifizierung mit öffentlichem Schlüssel
+ssh -o PreferredAuthentications=publickey -o PubkeyAuthentication=yes -i id_rsa user@remote_host
+Einfache Aufzeichnung von SSH-Sitzungen
+function _ssh_sesslog() {
+
+  _sesdir="<path/to/session/logs>"
+
+  mkdir -p "${_sesdir}" && \
+  ssh $@ 2>&1 | tee -a "${_sesdir}/$(date +%Y%m%d).log"
+
+}
+
+# Alias:
+alias ssh='_ssh_sesslog'
+Verwenden des Schlüsselbunds für SSH-Anmeldungen
+### Delete all of ssh-agent's keys.
+function _scl() {
+
+  /usr/bin/keychain --clear
+
+}
+
+### Add key to keychain.
+function _scg() {
+
+  /usr/bin/keychain /path/to/private-key
+  source "$HOME/.keychain/$HOSTNAME-sh"
+
+}
+SSH-Anmeldung ohne Verarbeitung von Anmeldeskripten
+ssh -tt user@host bash
+Lokale SSH-Portweiterleitung
+Beispiel 1:
+
+# Forwarding our local 2250 port to nmap.org:443 from localhost through localhost
+host1> ssh -L 2250:nmap.org:443 localhost
+
+# Connect to the service:
+host1> curl -Iks --location -X GET https://localhost:2250
+Beispiel 2:
+
+# Forwarding our local 9051 port to db.d.x:5432 from localhost through node.d.y
+host1> ssh -nNT -L 9051:db.d.x:5432 node.d.y
+
+# Connect to the service:
+host1> psql -U db_user -d db_dev -p 9051 -h localhost
+-n - leitet stdin von /dev/null
+-N - Führen Sie keinen Remote-Befehl aus
+-T - Deaktivieren der Pseudo-Terminal-Zuweisung
+SSH-Remote-Portweiterleitung
+# Forwarding our local 9051 port to db.d.x:5432 from host2 through node.d.y
+host1> ssh -nNT -R 9051:db.d.x:5432 node.d.y
+
+# Connect to the service:
+host2> psql -U postgres -d postgres -p 8000 -h localhost
+Werkzeug: linux-dev
+Testen der Remote-Verbindung zum Port
+timeout 1 bash -c "</dev/<proto>/<host>/<port>" >/dev/null 2>&1 ; echo $?
+<proto - Protokoll einstellen (TCP/UDP)
+<host> - Remote-Host festlegen
+<port> - Zielport festlegen
+Lesen und Schreiben in TCP- oder UDP-Sockets mit gängigen Bash-Tools
+exec 5<>/dev/tcp/<host>/<port>; cat <&5 & cat >&5; exec 5>&-
+Werkzeug: tcpdump
+Filtern Sie eingehenden Datenverkehr (auf der Schnittstelle) (spezifischer ip:port)
+tcpdump -ne -i eth0 -Q in host 192.168.252.1 and port 443
+-n - Adressen nicht konvertieren (Hostnamen oder Ports werden nicht aufgelöst)-nn
+-e - Drucken Sie die Kopfzeilen auf Linkebene
+-i [iface|any] - Schnittstelle einstellen
+-Q|-D [in|out|inout] - Sende-/Empfangsrichtung wählen ( - für alte TCPDUMP-Versionen)-D
+host [ip|hostname] - set host, auch [host not]
+[and|or] - Logik einstellen
+port [1-65535] - Portnummer festlegen, auch [port not]
+Filtern Sie eingehenden Datenverkehr (auf der Schnittstelle) (spezifischer ip:port) und schreiben Sie in eine Datei
+tcpdump -ne -i eth0 -Q in host 192.168.252.1 and port 443 -c 5 -w tcpdump.pcap
+-c [num] - nur die Anzahl der Pakete erfassen
+-w [filename] - Pakete in Datei schreiben, - aus Datei lesen-r [filename]
+Erfassen Sie alle ICMP-Pakete
+tcpdump -nei eth0 icmp
+Überprüfen Sie das verwendete Protokoll (TCP oder UDP) für den Dienst
+tcpdump -nei eth0 tcp port 22 -vv -X | egrep "TCP|UDP"
+ASCII-Text anzeigen (um die Ausgabe mit grep oder anderen zu analysieren)
+tcpdump -i eth0 -A -s0 port 443
+Schnappen Sie sich alles zwischen zwei Schlüsselwörtern
+tcpdump -i eth0 port 80 -X | sed -n -e '/username/,/=ldap/ p'
+Schnappen Sie sich den Benutzer und übergeben Sie immer einfaches http
+tcpdump -i eth0  port http -l -A | egrep -i \
+'pass=|pwd=|log=|login=|user=|username=|pw=|passw=|passwd=|password=|pass:|user:|username:|password:|login:|pass |user ' \
+--color=auto --line-buffered -B20
+HTTP-User-Agent aus HTTP-Anforderungsheader extrahieren
+tcpdump -ei eth0 -nn -A -s1500 -l | grep "User-Agent:"
+Erfassen Sie nur HTTP GET- und POST-Pakete
+tcpdump -ei eth0 -s 0 -A -vv \
+'tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x47455420' or 'tcp[((tcp[12:1] & 0xf0) >> 2):4] = 0x504f5354'
+oder einfach:
+
+tcpdump -ei eth0 -s 0 -v -n -l | egrep -i "POST /|GET /|Host:"
+Drehen von Aufnahmedateien
+tcpdump -ei eth0 -w /tmp/capture-%H.pcap -G 3600 -C 200
+-G <num> - pcap wird jede Sekunde erstellt<num>
+-C <size> - Schließen Sie das aktuelle PCAP und öffnen Sie ein neues, wenn es größer ist als <size>
+Top-Gastgeber nach Paketen
+tcpdump -ei enp0s25 -nnn -t -c 200 | cut -f 1,2,3,4 -d '.' | sort | uniq -c | sort -nr | head -n 20
+Schließt alle RFC 1918 Privatadressen aus
+tcpdump -nei eth0 'not (src net (10 or 172.16/12 or 192.168/16) and dst net (10 or 172.16/12 or 192.168/16))'
+Werkzeug: tcpick
+Analysieren Sie Pakete in Echtzeit
+while true ; do tcpick -a -C -r dump.pcap ; sleep 2 ; clear ; done
+Werkzeug: ngrep
+ngrep -d eth0 "www.domain.com" port 443
+-d [iface|any] - Schnittstelle einstellen
+[domain] - Hostname setzen
+port [1-65535] - Portnummer festlegen
+ngrep -d eth0 "www.domain.com" src host 10.240.20.2 and port 443
+(host [ip|hostname]) - Filtern Sie nach IP oder Hostname
+(port [1-65535]) - Filtern nach Portnummer
+ngrep -d eth0 -qt -O ngrep.pcap "www.domain.com" port 443
+-q - Leiser Modus (nur Nutzlasten)
+-t - Zeitstempel hinzugefügt
+-O [filename] - Ausgabe in Datei speichern, - aus Datei lesen-I [filename]
+ngrep -d eth0 -qt 'HTTP' 'tcp'
+HTTP - HTTP-Header anzeigen
+tcp|udp - Protokoll einstellen
+[src|dst] host [ip|hostname] - Festlegen der Richtung für einen bestimmten Knoten
+ngrep -l -q -d eth0 -i "User-Agent: curl*"
+-l - stdout Zeile gepuffert
+-i - Suche ohne Berücksichtigung der Groß-/Kleinschreibung
+Werkzeug: hping3
+hping3 -V -p 80 -s 5050 <scan_type> www.google.com
+-V|--verbose - Ausführlicher Modus
+-p|--destport - Zielport festlegen
+-s|--baseport - Quellport setzen
+<scan_type> - Scantyp festlegen
+-F|--fin - FIN-Flag setzen, Port offen, wenn keine Antwort
+-S|--syn - SYN-Flag setzen
+-P|--push - PUSH-Flag setzen
+-A|--ack - ACK-Flag setzen (verwenden, wenn Ping blockiert ist, RST-Antwort zurück, wenn der Port offen ist)
+-U|--urg - URG-Flag setzen
+-Y|--ymas - Y unbenutztes Flag setzen (0x80 - nullscan), Port offen, wenn keine Antwort
+-M 0 -UPF - TCP-Sequenznummer und Scan-Typ (URG+PUSH+FIN) einstellen, Port offen, wenn keine Antwort
+hping3 -V -c 1 -1 -C 8 www.google.com
+-c [num] - Anzahl der Pakete
+-1 - ICMP-Modus einstellen
+-C|--icmptype [icmp-num] - ICMP-Typ festlegen (Standard-ICMP-Echo = 8)
+hping3 -V -c 1000000 -d 120 -S -w 64 -p 80 --flood --rand-source <remote_host>
+--flood - Pakete so schnell wie möglich gesendet (keine Antworten anzeigen)
+--rand-source - Modus für zufällige Quelladressen
+-d --data - Datengröße
+-w|--win - winsize (Standardwert 64)
+Werkzeug: nmap
+Ping scannt das Netzwerk
+nmap -sP 192.168.0.0/24
+Nur offene Ports anzeigen
+nmap -F --open 192.168.0.0/24
+Vollständiger TCP-Port-Scan mit Dienstversionserkennung
+nmap -p 1-65535 -sV -sS -T4 192.168.0.0/24
+Nmap-Scan und Ausgabe an Nikto übergeben
+nmap -p80,443 192.168.0.0/24 -oG - | nikto.pl -h -
+Aufklärungsspezifischer ip:service mit Nmap-NSE-Skriptstapel
+# Set variables:
+_hosts="192.168.250.10"
+_ports="80,443"
+
+# Set Nmap NSE scripts stack:
+_nmap_nse_scripts="+dns-brute,\
+                   +http-auth-finder,\
+                   +http-chrono,\
+                   +http-cookie-flags,\
+                   +http-cors,\
+                   +http-cross-domain-policy,\
+                   +http-csrf,\
+                   +http-dombased-xss,\
+                   +http-enum,\
+                   +http-errors,\
+                   +http-git,\
+                   +http-grep,\
+                   +http-internal-ip-disclosure,\
+                   +http-jsonp-detection,\
+                   +http-malware-host,\
+                   +http-methods,\
+                   +http-passwd,\
+                   +http-phpself-xss,\
+                   +http-php-version,\
+                   +http-robots.txt,\
+                   +http-sitemap-generator,\
+                   +http-shellshock,\
+                   +http-stored-xss,\
+                   +http-title,\
+                   +http-unsafe-output-escaping,\
+                   +http-useragent-tester,\
+                   +http-vhosts,\
+                   +http-waf-detect,\
+                   +http-waf-fingerprint,\
+                   +http-xssed,\
+                   +traceroute-geolocation.nse,\
+                   +ssl-enum-ciphers,\
+                   +whois-domain,\
+                   +whois-ip"
+
+# Set Nmap NSE script params:
+_nmap_nse_scripts_args="dns-brute.domain=${_hosts},http-cross-domain-policy.domain-lookup=true,"
+_nmap_nse_scripts_args+="http-waf-detect.aggro,http-waf-detect.detectBodyChanges,"
+_nmap_nse_scripts_args+="http-waf-fingerprint.intensive=1"
+
+# Perform scan:
+nmap --script="$_nmap_nse_scripts" --script-args="$_nmap_nse_scripts_args" -p "$_ports" "$_hosts"
+Werkzeug: netcat
+nc -kl 5000
+-l - auf eine eingehende Verbindung lauschen
+-k - Abhören, nachdem der Client die Verbindung getrennt hat
+>filename.out - Empfangsdaten in Datei speichern (optional)
+nc 192.168.0.1 5051 < filename.in
+< filename.in - Daten an Remote-Host senden
+nc -vz 10.240.30.3 5000
+-v - ausführliche Ausgabe
+-z - Suche nach lauschenden Daemons
+nc -vzu 10.240.30.3 1-65535
+-u - Nur UDP-Ports scannen
+Datendatei übertragen (Archiv)
+server> nc -l 5000 | tar xzvfp -
+client> tar czvfp - /path/to/dir | nc 10.240.30.3 5000
+Remote-Shell starten
+# 1)
+server> nc -l 5000 -e /bin/bash
+client> nc 10.240.30.3 5000
+
+# 2)
+server> rm -f /tmp/f; mkfifo /tmp/f
+server> cat /tmp/f | /bin/bash -i 2>&1 | nc -l 127.0.0.1 5000 > /tmp/f
+client> nc 10.240.30.3 5000
+Einfacher Dateiserver
+while true ; do nc -l 5000 | tar -xvf - ; done
+Einfacher minimaler HTTP-Server
+while true ; do nc -l -p 1500 -c 'echo -e "HTTP/1.1 200 OK\n\n $(date)"' ; done
+Einfacher HTTP-Server
+Startet den Webserver nach jeder Anfrage neu - Bedingung für nur eine Verbindung entfernen.while
+
+cat > index.html << __EOF__
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+    <p>
+
+      Hello! It's a site.
+
+    </p>
+
+    </body>
+</html>
+__EOF__
+server> while : ; do \
+(echo -ne "HTTP/1.1 200 OK\r\nContent-Length: $(wc -c <index.html)\r\n\r\n" ; cat index.html;) | \
+nc -l -p 5000 \
+; done
+-p - Portnummer
+Einfacher HTTP-Proxy (Einzelverbindung)
+#!/usr/bin/env bash
+
+if [[ $# != 2 ]] ; then
+  printf "%s\\n" \
+         "usage: ./nc-proxy listen-port bk_host:bk_port"
+fi
+
+_listen_port="$1"
+_bk_host=$(echo "$2" | cut -d ":" -f1)
+_bk_port=$(echo "$2" | cut -d ":" -f2)
+
+printf "  lport: %s\\nbk_host: %s\\nbk_port: %s\\n\\n" \
+       "$_listen_port" "$_bk_host" "$_bk_port"
+
+_tmp=$(mktemp -d)
+_back="$_tmp/pipe.back"
+_sent="$_tmp/pipe.sent"
+_recv="$_tmp/pipe.recv"
+
+trap 'rm -rf "$_tmp"' EXIT
+
+mkfifo -m 0600 "$_back" "$_sent" "$_recv"
+
+sed "s/^/=> /" <"$_sent" &
+sed "s/^/<=  /" <"$_recv" &
+
+nc -l -p "$_listen_port" <"$_back" | \
+tee "$_sent" | \
+nc "$_bk_host" "$_bk_port" | \
+tee "$_recv" >"$_back"
+server> chmod +x nc-proxy && ./nc-proxy 8080 192.168.252.10:8000
+  lport: 8080
+bk_host: 192.168.252.10
+bk_port: 8000
+
+client> http -p h 10.240.30.3:8080
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: max-age=31536000
+Content-Length: 2748
+Content-Type: text/html; charset=utf-8
+Date: Sun, 01 Jul 2018 20:12:08 GMT
+Last-Modified: Sun, 01 Apr 2018 21:53:37 GMT
+Erstellen eines TCP- oder UDP-Proxys zur einmaligen Verwendung
+### TCP -> TCP
+nc -l -p 2000 -c "nc [ip|hostname] 3000"
+
+### TCP -> UDP
+nc -l -p 2000 -c "nc -u [ip|hostname] 3000"
+
+### UDP -> UDP
+nc -l -u -p 2000 -c "nc -u [ip|hostname] 3000"
+
+### UDP -> TCP
+nc -l -u -p 2000 -c "nc [ip|hostname] 3000"
+Werkzeug: gnutls-cli
+Testen der Verbindung zum Remote-Host (mit SNI-Unterstützung)
+gnutls-cli -p 443 google.com
+Testen der Verbindung zum Remote-Host (ohne SNI-Unterstützung)
+gnutls-cli --disable-sni -p 443 google.com
+Werkzeug: socat
+Testen der Remote-Verbindung zum Port
+socat - TCP4:10.240.30.3:22
+- - Standard-Eingang (STDIO)
+TCP4:<params> - TCP4-Verbindung mit bestimmten Parametern setzen
+[hostname|ip] - Legen Sie den Hostnamen/die IP fest
+[1-65535] - Portnummer festlegen
+Umleiten des TCP-Datenverkehrs an einen UNIX-Domain-Socket unter Linux
+socat TCP-LISTEN:1234,bind=127.0.0.1,reuseaddr,fork,su=nobody,range=127.0.0.0/8 UNIX-CLIENT:/tmp/foo
+TCP-LISTEN:<params> - TCP-Listen mit bestimmten Parametern festlegen
+[1-65535] - Portnummer festlegen
+bind=[hostname|ip] - Legen Sie Bind Hostname/IP fest
+reuseaddr - ermöglicht es anderen Sockets, sich an eine Adresse zu binden
+fork - hält den übergeordneten Prozess dazu an, mehr Verbindungen herzustellen
+su=nobody - Benutzer festlegen
+range=[ip-range] - IP-Bereich
+UNIX-CLIENT:<params> - kommuniziert mit dem angegebenen Peer-Socket
+filename - Socket definieren
+Werkzeug: p0f
+Legen Sie iface in den Promiscuous-Modus und geben Sie den Datenverkehr in die Protokolldatei aus
+p0f -i enp0s25 -p -d -o /dump/enp0s25.log
+-i - Hören Sie auf der angegebenen Schnittstelle
+-p - Schnittstelle in Promiscuous-Modus versetzen
+-d - Fork in den Hintergrund
+-o - Ausgabedatei
+Werkzeug: netstat
+Diagramm # der Verbindungen für jeden Host
+netstat -an | awk '/ESTABLISHED/ { split($5,ip,":"); if (ip[1] !~ /^$/) print ip[1] }' | \
+sort | uniq -c | awk '{ printf("%s\t%s\t",$2,$1) ; for (i = 0; i < $1; i++) {printf("*")}; print "" }'
+Überwachen Sie offene Verbindungen für einen bestimmten Port, einschließlich Listen, Zählen und Sortieren pro IP
+watch "netstat -plan | grep :443 | awk {'print \$5'} | cut -d: -f 1 | sort | uniq -c | sort -nk 1"
+Abrufen von Bannern von lokalen IPv4-Listening-Ports
+netstat -nlt | grep 'tcp ' | grep -Eo "[1-9][0-9]*" | xargs -I {} sh -c "echo "" | nc -v -n -w1 127.0.0.1 {}"
+Werkzeug: rsync
+Rsync-Remotedaten als root mit sudo
+rsync --rsync-path 'sudo rsync' username@hostname:/path/to/dir/ /local/
+Werkzeug: Host
+Löst den Domänennamen auf (mit externem DNS-Server)
+host google.com 9.9.9.9
+Überprüft den Domänenadministrator (SOA-Eintrag)
+host -t soa google.com 9.9.9.9
+Werkzeug: dig
+Löst den Domainnamen auf (kurze Ausgabe)
+dig google.com +short
+NS-Eintrag für bestimmte Domäne nachschlagen
+dig @9.9.9.9 google.com NS
+Abschnitt "Nur Abfrageantwort"
+dig google.com +nocomments +noquestion +noauthority +noadditional +nostats
+Abfragen ALLER DNS-Einträge
+dig google.com ANY +noall +answer
+DNS-Reverse-Lookup
+dig -x 172.217.16.14 +short
+Werkzeug: certbot
+Multidomain-Zertifikat generieren
+certbot certonly -d example.com -d www.example.com
+Generieren eines Platzhalterzertifikats
+certbot certonly --manual --preferred-challenges=dns -d example.com -d *.example.com
+Zertifikat mit privatem 4096-Bit-Schlüssel generieren
+certbot certonly -d example.com -d www.example.com --rsa-key-size 4096
+Werkzeug: network-other
+Abrufen aller Subnetze für ein bestimmtes AS (Autonomes System)
+AS="AS32934"
+whois -h whois.radb.net -- "-i origin ${AS}" | \
+grep "^route:" | \
+cut -d ":" -f2 | \
+sed -e 's/^[ \t]//' | \
+sort -n -t . -k 1,1 -k 2,2 -k 3,3 -k 4,4 | \
+cut -d ":" -f2 | \
+sed -e 's/^[ \t]/allow /' | \
+sed 's/$/;/' | \
+sed 's/allow  */subnet -> /g'
+Löst Domainnamen aus dns.google.com mit curl und jq auf
+_dname="google.com" ; curl -s "https://dns.google.com/resolve?name=${_dname}&type=A" | jq .
+Werkzeug: git
+Log-Alias für eine gute Ansicht Ihres Repositorys
+# 1)
+git log --oneline --decorate --graph --all
+
+# 2)
+git log --graph \
+--pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' \
+--abbrev-commit
+Werkzeug: python
+Statischer HTTP-Webserver
+# Python 3.x
+python3 -m http.server 8000 --bind 127.0.0.1
+
+# Python 2.x
+python -m SimpleHTTPServer 8000
+Statischer HTTP-Webserver mit SSL-Unterstützung
+# Python 3.x
+from http.server import HTTPServer, BaseHTTPRequestHandler
+import ssl
+
+httpd = HTTPServer(('localhost', 4443), BaseHTTPRequestHandler)
+
+httpd.socket = ssl.wrap_socket (httpd.socket,
+        keyfile="path/to/key.pem",
+        certfile='path/to/cert.pem', server_side=True)
+
+httpd.serve_forever()
+
+# Python 2.x
+import BaseHTTPServer, SimpleHTTPServer
+import ssl
+
+httpd = BaseHTTPServer.HTTPServer(('localhost', 4443),
+        SimpleHTTPServer.SimpleHTTPRequestHandler)
+
+httpd.socket = ssl.wrap_socket (httpd.socket,
+        keyfile="path/tp/key.pem",
+        certfile='path/to/cert.pem', server_side=True)
+
+httpd.serve_forever()
+Base64 kodieren
+python -m base64 -e <<< "sample string"
+Base64 dekodieren
+python -m base64 -d <<< "dGhpcyBpcyBlbmNvZGVkCg=="
+Werkzeug: awk
+Suche nach passenden Zeilen
+# egrep foo
+awk '/foo/' filename
+Suche nach nicht übereinstimmenden Zeilen
+# egrep -v foo
+awk '!/foo/' filename
+Drucken Sie übereinstimmende Zeilen mit Zahlen
+# egrep -n foo
+awk '/foo/{print FNR,$0}' filename
+Drucken der letzten Spalte
+awk '{print $NF}' filename
+Finden Sie alle Zeilen, die länger als 80 Zeichen sind
+awk 'length($0)>80{print FNR,$0}' filename
+Drucken Sie nur Zeilen mit weniger als 80 Zeichen
+awk 'length < 80' filename
+Drucken Sie doppelte neue Zeilen pro Datei
+awk '1; { print "" }' filename
+Zeilennummern drucken
+awk '{ print FNR "\t" $0 }' filename
+awk '{ printf("%5d : %s\n", NR, $0) }' filename   # in a fancy manner
+Drucken von Zeilennummern nur für nicht leere Zeilen
+awk 'NF { $0=++a " :" $0 }; { print }' filename
+Drucken Sie die Zeile und die nächsten beiden Zeilen (i=5) nach der Zeile, die dem regulären Ausdruck entspricht
+awk '/foo/{i=5+1;}{if(i){i--; print;}}' filename
+Drucken Sie die Zeilen, beginnend mit der Zeile, die mit 'server {' übereinstimmt, bis zur Zeile, die mit '}' übereinstimmt.
+awk '/server {/,/}/' filename
+Drucken mehrerer Spalten mit Trennzeichen
+awk -F' ' '{print "ip:\t" $2 "\n port:\t" $3' filename
+Leerzeilen entfernen
+awk 'NF > 0' filename
+
+# alternative:
+awk NF filename
+Löschen Sie nachgestellte Leerzeichen (Leerzeichen, Tabulatoren)
+awk '{sub(/[ \t]*$/, "");print}' filename
+Führenden Leerraum löschen
+awk '{sub(/^[ \t]+/, ""); print}' filename
+Entfernen Sie doppelte aufeinanderfolgende Zeilen
+# uniq
+awk 'a !~ $0{print}; {a=$0}' filename
+Doppelte Einträge in einer Datei ohne Sortierung entfernen
+awk '!x[$0]++' filename
+Mehrere Spalten ausschließen
+awk '{$1=$3=""}1' filename
+Ersetzen Sie foo durch Balken in Zeilen, die dem regulären Ausdruck entsprechen
+awk '/regexp/{gsub(/foo/, "bar")};{print}' filename
+Fügen Sie einige Zeichen am Anfang übereinstimmender Zeilen hinzu
+awk '/regexp/{sub(/^/, "++++"); print;next;}{print}' filename
+Abrufen der Apache-Protokolle der letzten Stunde
+awk '/'$(date -d "1 hours ago" "+%d\\/%b\\/%Y:%H:%M")'/,/'$(date "+%d\\/%b\\/%Y:%H:%M")'/ { print $0 }' \
+/var/log/httpd/access_log
+Werkzeug: sed
+Drucken einer bestimmten Zeile aus einer Datei
+sed -n 10p /path/to/file
+Entfernen einer bestimmten Zeile aus einer Datei
+sed -i 10d /path/to/file
+# alternative (BSD): sed -i'' 10d /path/to/file
+Entfernen eines Zeilenbereichs aus einer Datei
+sed -i <file> -re '<start>,<end>d'
+Zeilenumbruch(e) durch ein Leerzeichen ersetzen
+sed ':a;N;$!ba;s/\n/ /g' /path/to/file
+
+# cross-platform compatible syntax:
+sed -e ':a' -e 'N' -e '$!ba' -e 's/\n/ /g' /path/to/file
+:a Erstellen eines Etiketts a
+N Hängen Sie die nächste Zeile an den Musterbereich an
+$! Wenn nicht die letzte Zeile, BA-Zweigbezeichnung (Gehe zu) a
+s Ersetzen Sie Regex durch eine neue Zeile durch ein Leerzeichen, globale Übereinstimmung (so oft wie möglich)/\n// //g
+Alternativen:
+
+# perl version (sed-like speed):
+perl -p -e 's/\n/ /' /path/to/file
+
+# bash version (slow):
+while read line ; do printf "%s" "$line " ; done < file
+Zeichenfolge löschen +N nächste Zeilen
+sed '/start/,+4d' /path/to/file
+Werkzeug: grep
+Suche nach einem "Muster" in allen Dateien im aktuellen Verzeichnis
+grep -rn "pattern"
+grep -RnisI "pattern" *
+fgrep "pattern" * -R
+Nur für mehrere Muster anzeigen
+grep 'INFO*'\''WARN' filename
+grep 'INFO\|WARN' filename
+grep -e INFO -e WARN filename
+grep -E '(INFO|WARN)' filename
+egrep "INFO|WARN" filename
+Außer mehreren Mustern
+grep -vE '(error|critical|warning)' filename
+Daten aus Datei ohne Kommentare anzeigen
+grep -v ^[[:space:]]*# filename
+Daten aus Datei ohne Kommentare und neue Zeilen anzeigen
+egrep -v '#|^$' filename
+Zeichenfolgen mit einem Bindestrich anzeigen
+grep -e -- filename
+grep -- -- filename
+grep "\-\-" filename
+Entfernen Sie Leerzeilen aus einer Datei und speichern Sie die Ausgabe in einer neuen Datei
+grep . filename > newfilename
+Werkzeug: perl
+Suchen und Ersetzen (an Ort und Stelle)
+perl -i -pe's/SEARCH/REPLACE/' filename
+Bearbeiten von Dateien, die alle foo in bar ändern (und das Original sichern)*.conf
+perl -p -i.orig -e 's/\bfoo\b/bar/g' *.conf
+Druckt die ersten 20 Zeilen aus Dateien*.conf
+perl -pe 'exit if $. > 20' *.conf
+Suchzeilen 10 bis 20
+perl -ne 'print if 10 .. 20' filename
+Löschen Sie die ersten 10 Zeilen (und sichern Sie das Original)
+perl -i.orig -ne 'print unless 1 .. 10' filename
+Löschen Sie alle außer den Zeilen zwischen foo und bar (und sichern Sie das Original)
+perl -i.orig -ne 'print unless /^foo$/ .. /^bar$/' filename
+Reduzieren Sie mehrere Leerzeilen auf eine einzige Zeile
+perl -p -i -00pe0 filename
+Tabulatoren in Leerzeichen umwandeln (1t = 2sp)
+perl -p -i -e 's/\t/  /g' filename
+Lesen Sie Eingaben aus einer Datei und melden Sie die Anzahl der Zeilen und Zeichen
+perl -lne '$i++; $in += length($_); END { print "$i lines, $in characters"; }' filename
+Muschel-Tricks [Inhaltsverzeichnis]
+Wenn Sie eine Schale bekommen, ist sie im Allgemeinen nicht sehr sauber, aber nachdem Sie diese Schritte befolgt haben, haben Sie eine ziemlich saubere und komfortable Schale, mit der Sie arbeiten können.
+
+script /dev/null -c bash
+Strg-Z (um es in den Hintergrund zu senden)
+stty raw -echo; fg (bringt die Shell in den Vordergrund zurück)
+reset (zum Zurücksetzen der Klemme)
+xterm (wenn nach dem Terminaltyp gefragt)
+export TERM=xterm; export SHELL=bash
+Shell-Funktionen [Inhaltsverzeichnis]
+Table of Contents
+Domain resolve
+Get ASN
+Domain resolve
+# Dependencies:
+#   - curl
+#   - jq
+
+function DomainResolve() {
+
+  local _host="$1"
+
+  local _curl_base="curl --request GET"
+  local _timeout="15"
+
+  _host_ip=$($_curl_base -ks -m "$_timeout" "https://dns.google.com/resolve?name=${_host}&type=A" | \
+  jq '.Answer[0].data' | tr -d "\"" 2>/dev/null)
+
+  if [[ -z "$_host_ip" ]] || [[ "$_host_ip" == "null" ]] ; then
+
+    echo -en "Unsuccessful domain name resolution.\\n"
+
+  else
+
+    echo -en "$_host > $_host_ip\\n"
+
+  fi
+
+}
+Example:
+
+shell> DomainResolve nmap.org
+nmap.org > 45.33.49.119
+
+shell> DomainResolve nmap.org
+Unsuccessful domain name resolution.
+Abrufen von ASN
+# Dependencies:
+#   - curl
+
+function GetASN() {
+
+  local _ip="$1"
+
+  local _curl_base="curl --request GET"
+  local _timeout="15"
+
+  _asn=$($_curl_base -ks -m "$_timeout" "http://ip-api.com/line/${_ip}?fields=as")
+
+  _state=$(echo $?)
+
+  if [[ -z "$_ip" ]] || [[ "$_ip" == "null" ]] || [[ "$_state" -ne 0 ]]; then
+
+    echo -en "Unsuccessful ASN gathering.\\n"
+
+  else
+
+    echo -en "$_ip > $_asn\\n"
+
+  fi
+
+}
+Beispiel:
+
+shell> GetASN 1.1.1.1
+1.1.1.1 > AS13335 Cloudflare, Inc.
+
+shell> GetASN 0.0.0.0
+Unsuccessful ASN gathering.
+
+
+
+
+
+
+
+
+
+
 Wie man ein Hacker wird
 @Eric Steven Raymond
 Thyrsus Unternehmen
@@ -609,5 +3321,4 @@ Ein:
 
 Wenn Sie noch kein Unix auf Ihrem Computer installiert haben, An anderer Stelle auf dieser Seite füge ich Hinweise hinzu, wo man am meisten bekommt häufig verwendetes freies Unix. Um ein Hacker zu sein, braucht man Motivation und Eigeninitiative und die Fähigkeit, sich weiterzubilden. Jetzt loslegen...
 
-<!---
-MarcelRaschke/MarcelRaschke is a ✨ special ✨ repository because its `README.md` (this file)---!>
+<!---MarcelRaschke/MarcelRaschke is a ✨ special ✨ repository because its `README.md` (this file)---!>
