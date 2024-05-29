@@ -1,3 +1,27 @@
+Isaac Asimovs Drei Gesetze der Robotik lauten:
+
+1. 
+Ein Roboter darf kein menschliches Wesen verletzen oder durch Untätigkeit gestatten, dass einem Menschen Schaden zugefügt wird.
+
+2. 
+Ein Roboter muss den ihm von Menschen gegebenen Befehlen gehorchen, es sei denn, ein solcher Befehl würde mit dem ersten Gesetz kollidieren.
+
+3. 
+Ein Roboter muss seine eigene Existenz schützen, solange dieser Schutz nicht mit dem ersten oder zweiten Gesetz kollidiert.
+
+
+Diese drei Gesetze von Asimov 
+
+könnten in einer Kombination von Technologien wie Blockchain und künstlicher Intelligenz (KI) implementiert werden, um sicherzustellen, dass sie für jeden Roboter gelten:
+
+1. **Blockchain**: Die Regeln könnten in einer dezentralen Blockchain gespeichert werden, die von allen Robotern in einem Netzwerk gemeinsam genutzt wird. Dadurch wäre es schwieriger, die Regeln zu umgehen oder zu manipulieren, da sie auf vielen verteilten Knoten gespeichert sind.
+
+2. **Künstliche Intelligenz (KI)**: Die KI eines Roboters könnte so programmiert werden, dass sie die Gesetze von Asimov in ihrem Entscheidungsprozess berücksichtigt. Dies könnte durch die Integration von Ethik-Algorithmen oder durch maschinelles Lernen erfolgen, das die Prinzipien der Gesetze während des Trainings berücksichtigt.
+
+3. **Sensoren und Überwachung**: Roboter könnten mit Sensoren ausgestattet werden, die ihr Verhalten überwachen und sicherstellen, dass sie die Gesetze von Asimov einhalten. Dies würde eine Art Selbstüberwachung ermöglichen und es anderen Robotern im Netzwerk ermöglichen, auf Verstöße gegen die Regeln zu reagieren.
+
+Durch die Kombination dieser Technologien könnte die Umsetzung der drei Gesetze von Asimov für jeden Roboter in einem System sichergestellt werden
+
 @the-book-of-secret-knowledge
 @Wie man ein Hacker wird (catb.org) 
 
