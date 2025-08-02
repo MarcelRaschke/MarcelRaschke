@@ -3,15 +3,20 @@ Marcel Raschke 👨‍💻
 "Wissen ist mächtig, seien Sie vorsichtig, wie Sie es verwenden!"
 
 🧠 Über mich
+
 Willkommen in meinem digitalen Universum! Ich bin ein leidenschaftlicher Entwickler und Sicherheitsforscher, der sich für die Schnittpunkte von Technologie, Ethik und Innovation begeistert. Meine Arbeit dreht sich um die fundamentalen Prinzipien von Isaac Asimovs Robotergesetzen und deren moderne Implementierung in einer Welt von Blockchain und KI.
 
 🤖 Philosophie: 
+
 Die Drei Gesetze in der digitalen Ära
 Inspiriert von Isaac Asimovs Drei Gesetzen der Robotik, arbeite ich an deren Implementierung durch moderne Technologien:
 
 Ein Roboter darf kein menschliches Wesen verletzen - Sicherheit und Ethik stehen im Mittelpunkt
+
 Gehorsamkeit gegenüber menschlichen Befehlen - Benutzerfreundlichkeit und Zugänglichkeit
+
 Selbstschutz - Robuste und nachhaltige Systemarchitekturen
+
 
 🛠️ Tech Stack & Expertise
 
