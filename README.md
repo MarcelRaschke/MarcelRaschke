@@ -4,7 +4,9 @@ Marcel Raschke 👨‍💻
 
 🧠 Über mich
 Willkommen in meinem digitalen Universum! Ich bin ein leidenschaftlicher Entwickler und Sicherheitsforscher, der sich für die Schnittpunkte von Technologie, Ethik und Innovation begeistert. Meine Arbeit dreht sich um die fundamentalen Prinzipien von Isaac Asimovs Robotergesetzen und deren moderne Implementierung in einer Welt von Blockchain und KI.
-🤖 Philosophie: Die Drei Gesetze in der digitalen Ära
+
+🤖 Philosophie: 
+Die Drei Gesetze in der digitalen Ära
 Inspiriert von Isaac Asimovs Drei Gesetzen der Robotik, arbeite ich an deren Implementierung durch moderne Technologien:
 
 Ein Roboter darf kein menschliches Wesen verletzen - Sicherheit und Ethik stehen im Mittelpunkt
@@ -12,6 +14,7 @@ Gehorsamkeit gegenüber menschlichen Befehlen - Benutzerfreundlichkeit und Zugä
 Selbstschutz - Robuste und nachhaltige Systemarchitekturen
 
 🛠️ Tech Stack & Expertise
+
 💻 Core Technologies
 
 Languages: Python, JavaScript, Go, Rust, C/C++
@@ -29,7 +32,7 @@ Vulnerability Research - CVE discoveries and responsible disclosure
 
 🌐 Infrastructure & DevOps
 
-Cloud Platforms: AWS, GCP, Azure
+Cloud Platforms: GCP, Azure
 Orchestration: Kubernetes, Docker Swarm
 Automation: Ansible, Terraform, CI/CD Pipelines
 Monitoring: ELK Stack, Prometheus, Grafana
@@ -51,6 +54,7 @@ Cybersecurity Professionals
 Wissbegierige Entwickler
 
 🔍 Aktuelle Fokusbereiche
+
 pythoncurrent_interests = {
     "security": ["Zero Trust Architecture", "Supply Chain Security"],
     "blockchain": ["Consensus Mechanisms", "DeFi Protocols"],
@@ -70,6 +74,7 @@ Ich suche immer nach spannenden Projekten und Kollaborationen in folgenden Berei
 🛡️ Security Tools - Open-Source Sicherheitswerkzeuge
 
 🌐 Website:
+
 https://github.com/MarcelRaschke
 
 🎯 Fun Facts
@@ -80,12 +85,7 @@ https://github.com/MarcelRaschke
 🌱 Ständig am Lernen neuer Technologien
 ☕ Kaffee-betriebener Code-Produzent
 
-📈 Contribution Graph
-Bild anzeigen
-
-<div align="center">
 💡 "In einer Welt voller Nullen und Einsen sei derjenige, der den Unterschied macht"
-
 
 🏆 Highlights
 
